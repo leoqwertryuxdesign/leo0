@@ -1670,7 +1670,8 @@ h3{
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
+        color: grey;
 	}
 
 		a:hover {
@@ -1816,9 +1817,6 @@ h3{
 		color: #555;
 	}
 
-	a {
-		color: #8a4680;
-	}
 
 	strong, b {
 		color: #555;
@@ -4348,3 +4346,11 @@ h3{
 			}
 
 		}
+
+    	@media screen and (max-width: 480px) {
+
+		#footer .copyright {
+				font-size: 0.7rem;
+			}
+
+	}
