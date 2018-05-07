@@ -28,6 +28,13 @@
 		line-height: 1;
 	}
 
+span#text{
+    color: gray;
+    
+    font-size: 0.7em;
+    text-align: center;
+}
+
 h3{
     text-align: center;
     font-family: "Tw Cen MT", sans-serif;
