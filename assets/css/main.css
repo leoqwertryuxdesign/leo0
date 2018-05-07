@@ -30,14 +30,14 @@
 
 span#text{
     color: gray;
-    
-    font-size: 0.7em;
+    padding-bottom: 1em;
+    font-size: 1em;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 h3{
     text-align: center;
-    font-family: "Tw Cen MT", sans-serif;
     padding-bottom: 1em;
 }
 
@@ -201,7 +201,12 @@ h3{
 		.container {
 			width: 90% !important;
 		}
-
+        span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 0.7em;
+    text-align: center;
+}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -227,8 +232,18 @@ h3{
 		.container {
 			width: 90% !important;
 		}
+    
 
 	}
+
+@media screen and (max-width: 360px) {
+    span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 0.6em;
+    text-align: center;
+}
+    }
 
 /* Grid */
 
@@ -1673,6 +1688,8 @@ h3{
 	p {
 		margin: 0 0 2rem 0;
         text-align: center;
+        font-family: "Poppins", sans-serif;
+        
 	}
 
 		p.special {
@@ -1708,12 +1725,15 @@ h3{
 		}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 1rem;
         color: #fff;
 	}
 
 	h3 {
 		font-size: 2rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+        color: #111216;
 	}
 
 	h4 {
@@ -1804,7 +1824,7 @@ h3{
 		color: #555;
 	}
 
-	h1, h3, h4, h5, h6 {
+	h1, h4, h5, h6 {
 		color: #555;
 	}
 
@@ -1825,12 +1845,15 @@ h3{
 
 	.box {
 		margin-bottom: 2rem;
-		background: #FFF;
+  
 	}
+
+ 
 
 		.box .image.fit {
 			margin: 0;
 			border-radius: 0;
+            
 		}
 
 			.box .image.fit img {
@@ -1838,7 +1861,7 @@ h3{
 			}
 
 		.box header h2 {
-			margin-bottom: 2rem;
+			margin-bottom: 1rem;
 		}
 
 		.box header p {
@@ -1857,13 +1880,14 @@ h3{
 				right: 0;
 				bottom: 0;
 				left: 0;
-				width: 50%;
+				width: 75%;
 				height: 1px;
-				background-color: rgba(0, 0, 0, 0.125);
+				background-color: #cc112c;
 			}
 
 		.box .content {
-			padding: 3rem;
+			padding: 2rem;
+            
 		}
 
 		.box > :last-child,
@@ -1871,6 +1895,8 @@ h3{
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
             background-color: #111216;
+            text-decoration: none;
+            color: #a6a6a6;
 		}
 
 		.box.alt {
@@ -2718,7 +2744,7 @@ h3{
 				color: #ffffff;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #ffffff;
 			}
 
@@ -2926,7 +2952,7 @@ h3{
 				color: #000;
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+			.wrapper.style2 h1, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: #000;
 			}
 
@@ -3139,7 +3165,7 @@ h3{
 				color: #ffffff;
 			}
 
-			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #ffffff;
 			}
 
@@ -3729,7 +3755,7 @@ h3{
 	}
 
 	#header {
-		background: rgba(0, 0, 0, 0.975);
+		background: #111216;
 		color: #a6a6a6;
 		cursor: default;
 		height: 5em;
@@ -3745,7 +3771,7 @@ h3{
 		#header > .logo {
 			display: inline-block;
             height: inherit;
-			width: 3em;
+			width: 2em;
 			left: 1.25em;
 			line-height: inherit;
 			margin: 0;
@@ -3761,7 +3787,7 @@ h3{
 			}
 
 				#header > .logo a:hover {
-					color: rgba(255, 255, 255, 0.65);
+					opacity: 0.7;
 				}
 
 			#header > .logo span {
@@ -3784,6 +3810,7 @@ h3{
 
 			#header > a:hover {
 				color: #f2f2f2;
+                opacity: 0.7;
 			}
 
 			#header > a[href="#menu"] {
