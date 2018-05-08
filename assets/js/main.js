@@ -25,8 +25,6 @@ var settings = {
 
 };
 
-
-
 (function($) {
 
 	skel.breakpoints({
