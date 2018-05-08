@@ -235,6 +235,7 @@
 						<h4>Hi, my name is <b>Leonardo Burgatte</b>! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><br><br><br></h4>
                         
                         <p class="special2">THANK <span style="color: #cc112c">YOU</span> FOR VISITING</p>
+                        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</header>
 				</div>
 			</section>
@@ -288,6 +289,28 @@ $(document).ready(function(){
     } // End if
   });
 });
+       
+                
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("myBtn").style.display = "block"; 
+    
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    
+    document.body.scrollTop = 0; // For Safari
+    
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
                 
 </script>
             
