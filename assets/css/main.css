@@ -233,7 +233,7 @@ h3{
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 420px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -265,11 +265,38 @@ h3{
 
 	}
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     span#text{
     color: gray;
     padding-bottom: 1em;
     font-size: 0.75em;
+    text-align: center;
+}
+    }
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 0.9em;
+    text-align: center;
+}
+    }
+
+@media screen and (min-width: 376px) and (max-width: 412px) {
+    span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 1.08em;
+    text-align: center;
+}
+    }
+
+@media screen and (min-width: 413px) and (max-width: 415px) {
+    span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 1.08em;
     text-align: center;
 }
     }
