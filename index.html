@@ -31,13 +31,15 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-                    <li><a href="index.html"><span style="font-size: 1.5em">Intro</span></a></li>
-					<li><a href="generic.html"><span style="font-size: 1.5em">Projects</span></a></li>
-					<li><a href="elements.html"><span style="font-size: 1.5em">About</span></a></li>
+                    <li><a href="#section1"><span style="font-size: 1.5em">Intro</span></a></li>
+					<li><a href="#section2"><span style="font-size: 1.5em">Projects</span></a></li>
+					<li><a href="#section3"><span style="font-size: 1.5em">About</span></a></li>
 				</ul>
 			</nav>
 
 		<!-- Banner -->
+            <div id="section1" class="section">
+
 			<section class="banner full">
 				<article>
 					<img src="images/b.svg" alt="" />
@@ -61,9 +63,10 @@
 				</article>
 -->
 			</section>
-
+        </div>
 		<!-- One -->
-        
+            <div id="section2" class="section">
+
 			<section id="one" class="wrapper style2">
 <!--                <h3>Projects</h3>-->
                 
@@ -197,6 +200,7 @@
 					</div>
 				</div>
 			</section>
+        </div>
 
 		<!-- Two -->
 			<section id="two" class="wrapper style3">
@@ -209,6 +213,8 @@
 			</section>
 
 		<!-- Three -->
+        <div id="section3" class="section">
+
 			<section id="three" class="wrapper style2">
 				<div class="inner">
 					<header class="align-center">
@@ -226,7 +232,7 @@
 					</header>
 				</div>
 			</section>
-
+        </div>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -249,6 +255,38 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            
+            <script>
+                
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+                
+</script>
+            
+            
+
 
 	</body>
 </html>
