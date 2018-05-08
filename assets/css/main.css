@@ -28,12 +28,29 @@
 		line-height: 1;
 	}
 
-span#text{
+    mark {
+    background-color: #cc112c;
+    color: white;
+        font-size: 1.5em;
+        font-family: 'Squada One', cursive;
+        font-weight: lighter;
+}
+
+ mark:hover {
+opacity: 0.7;
+}
+
+#text{
     color: gray;
     padding-bottom: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Squada One', cursive;
+    font-weight: lighter;
+}
+
+#text:hover{
+    color: #cc112c;
 }
 
 h3{
@@ -175,7 +192,6 @@ h3{
 		.container {
 			width: 90%;
 		}
-
 	}
 
 	@media screen and (max-width: 736px) {
@@ -204,9 +220,17 @@ h3{
         span#text{
     color: gray;
     padding-bottom: 1em;
-    font-size: 0.7em;
+    font-size: 0.z7em;
     text-align: center;
 }
+        
+    .gallery .image.fit{
+                   width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center
+        }
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -232,7 +256,12 @@ h3{
 		.container {
 			width: 90% !important;
 		}
-    
+      span#text{
+    color: gray;
+    padding-bottom: 1em;
+    font-size: 0.95em;
+    text-align: center;
+}
 
 	}
 
@@ -240,7 +269,7 @@ h3{
     span#text{
     color: gray;
     padding-bottom: 1em;
-    font-size: 0.6em;
+    font-size: 0.75em;
     text-align: center;
 }
     }
@@ -1672,6 +1701,7 @@ h3{
 	a {
 		text-decoration: none;
         color: grey;
+        font-family: 'Squada One', cursive;
 	}
 
 		a:hover {
@@ -1695,11 +1725,12 @@ h3{
 
 		p.special {
 			text-transform: uppercase;
-			font-size: .75rem;
-			font-weight: 300;
+			font-size: 2em;
+			font-weight: 100;
 			margin: 0 0 .5rem 0;
 			padding: 0 0 1rem 0;
 			letter-spacing: .25rem;
+            font-family: 'Squada One', cursive;
 		}
 
 			p.special:after {
@@ -1713,6 +1744,16 @@ h3{
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.125);
 			}
+
+            p.special2{
+            text-transform: uppercase;
+            font-size: 2em;
+            font-weight: 800;
+            margin: 0 0 .5rem 0;
+            padding: 0 0 1rem 0;
+            letter-spacing: .25rem;
+                font-family: 'Squada One', cursive;
+            }
 
 	h1, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -1728,11 +1769,12 @@ h3{
 	h2 {
 		font-size: 1rem;
         color: #fff;
+        font-family: 'Poppins', sans-serif;
 	}
 
 	h3 {
 		font-size: 2rem;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Squada One', cursive;
         font-weight: 200;
         color: #111216;
 	}
@@ -1856,6 +1898,13 @@ h3{
 
 			.box .image.fit img {
 				border-radius: 0;
+                 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+			}
+
+.box .image.fit img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
 			}
 
 		.box header h2 {
@@ -2398,9 +2447,7 @@ h3{
 			width: 100%;
 		}
 
-        .image.fit:hover {
-            opacity: 0.5;
-		}
+
 
 			.image.fit img {
 				width: 100%;
@@ -2572,6 +2619,11 @@ h3{
 						ul.actions.small li:first-child {
 							padding-top: 0;
 						}
+                
+                .box .image.fit img {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+			}
 
 			}
 
@@ -2722,11 +2774,11 @@ h3{
 
 		.wrapper > .inner {
 			margin: 0 auto;
-			width: 80rem;
+			width: 90rem;
 		}
 
 		.wrapper.style1 {
-			background-color: #8a4680;
+			background-color: #cc112c;
 			color: #e2d1df;
 		}
 
@@ -2934,7 +2986,12 @@ h3{
 			}
 
 		.wrapper.style2 {
-			background-color: #f2f2f2;
+/*
+            background-image: url("../../images/bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+*/
+            background-color: #f2f2f2;
 			color: #a6a6a6;
 		}
 
@@ -2950,7 +3007,7 @@ h3{
 				color: #000;
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+			.wrapper.style2 h1, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: #000;
 			}
 
@@ -3144,8 +3201,8 @@ h3{
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
-			background-size: cover;
+			background-image: url(../../images/work.jpg);
+			background-size:contain;
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
@@ -3343,7 +3400,7 @@ h3{
 			}
 
 			.wrapper.style3 header p {
-				color: #999999;
+				color: white;
 			}
 
 			.wrapper.style3 table tbody tr {
@@ -3373,6 +3430,7 @@ h3{
 			.wrapper.style3 .inner {
 				position: relative;
 				z-index: 2;
+                padding-bottom: 2em;
 			}
 
 			.wrapper.style3 p {
@@ -3391,9 +3449,9 @@ h3{
 					right: 0;
 					bottom: 0;
 					left: 0;
-					width: 50%;
+					width: 75%;
 					height: 1px;
-					background-color: rgba(255, 255, 255, 0.5);
+					background-color: #cc112c;
 				}
 
 			.wrapper.style3:before {
@@ -3462,6 +3520,7 @@ h3{
 		-webkit-align-items: stretch;
 		-ms-align-items: stretch;
 		align-items: stretch;
+        padding-top: 2em;
 	}
 
 		.grid-style > * {
@@ -3480,7 +3539,7 @@ h3{
 		}
 
 		.grid-style > * {
-			padding: 2rem;
+			padding: 1.5rem;
 			width: calc(50% + 2rem);
 		}
 
@@ -3615,26 +3674,20 @@ h3{
 			padding-bottom: 0;
 		}
 
-		.gallery > :nth-child(2n + 1) {
-			padding-left: 0;
-		}
-
 		.gallery > :nth-child(2n) {
 			padding-right: 0;
 		}
 
 		.gallery > :nth-child(2n + 1),
 		.gallery > :nth-child(2n) {
-			width: calc(50% + 0rem);
-		}
-
-		.gallery .image {
-			background: #FFF;
-			padding: 1rem;
+			width: calc(100% + 0rem);
 		}
 
 			.gallery .image.fit {
-				margin: 0;
+                width: 50%;
+                display: block;
+                margin: 0 auto ;
+                text-align: center;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3667,7 +3720,6 @@ h3{
 			.gallery > :nth-child(2n + 1),
 			.gallery > :nth-child(2n) {
 				padding: 1rem;
-				width: calc(100% + 2rem);
 			}
 
 			.gallery > * {
@@ -3695,8 +3747,20 @@ h3{
 			.gallery > :nth-child(1n) {
 				width: calc(100% + 1rem);
 			}
+            
+        
 
 		}
+
+@media screen and (max-width: 600px) {
+    	.gallery .image.fit {
+                width: 100%;
+                display: block;
+                margin: 0 auto ;
+                text-align: center;
+			}
+    
+}
 
 /* Header */
 
@@ -3784,8 +3848,9 @@ h3{
 				text-decoration: none;
 			}
 
-				#header > .logo a:hover {
+				#header > .logo:hover {
 					opacity: 0.7;
+                    width: 2em;
 				}
 
 			#header > .logo span {
@@ -4143,7 +4208,7 @@ h3{
 				}
 
 				.banner .indicators li.visible:before {
-					background: #fff;
+					background: #cc112c;
 				}
 
 		.banner > article {
@@ -4319,7 +4384,7 @@ h3{
 
 	#footer {
 		padding: 4rem 0 2rem 0 ;
-		background: #000;
+		background: #111216;
 		text-align: center;
 	}
 
@@ -4328,7 +4393,7 @@ h3{
 		}
 
 			#footer a:hover {
-				color: #FFF;
+				color: #cc112c;
 			}
 
 		#footer .copyright {
