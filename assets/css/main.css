@@ -1305,7 +1305,7 @@ h3{
             font-size: 2em;
             font-weight: 800;
             margin: 0 0 .5rem 0;
-            padding: 0 0 1rem 0;
+            padding: 3rem 3rem 3rem 3rem;
             letter-spacing: .25rem;
                 font-family: 'Squada One', cursive;
             }
@@ -1630,6 +1630,10 @@ h3{
 		}
 
 		@media screen and (max-width: 480px) {
+            
+            .wrapper.style2 button{
+                width: 100%;
+            }
             
                     .box header p {
         font-size: .55rem;
@@ -2467,6 +2471,7 @@ input[type=submit] {
 			.wrapper.style2 .button {
 				background-color: #111216;
 				color: #f2f2f2 !important;
+                float: right;
 
 			}
 

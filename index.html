@@ -246,46 +246,19 @@
                         <h3>Blockquote</h3>
 								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
                         
-						<h4>Hi, my name is <b>Leonardo Burgatte</b>! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><br><br><br></h4>
+						<h4>Hi, my name is <b>Leonardo Burgatte</b>! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor suscipit ligula sit amet vehicula. Morbi consequat commodo ex vitae tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris viverra ex vel pretium ornare. Phasellus finibus, justo sed mattis iaculis, risus dui scelerisque dui, nec varius libero sem vel ante. Maecenas pharetra faucibus finibus. Cras in maximus nulla. Nullam cursus et mi vel sollicitudin.<br><<br></h4>
                         
                         
 					</header>
 				</div>
                 
-             <div id="section4" class="section">   
-								<p class="special2"><span style="color: #cc112c">C</span>ONTACT</p>
-
-     <div class="container">
-  <form action="https://formspree.io/leoburgatte@gmail.com" method="POST" enctype="text/plain">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">*Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name" placeholder="Your name.." name="name">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">*Email</label>
-      </div>
-      <div class="col-75">
-        <input type="email" id="email" placeholder="Your Email.." name="_replyto">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">*Message</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Send">
-    </div>
-  </form>
-         
+             <div id="section4" class="section">
+                 <div class="inner">
+					<header class="align-center">
+								<p class="special"><span style="color: #cc112c">C</span>ONTACT</p>
+                        
+                     </header></div>
+     <div class="container">         
          
 <form method="POST" action="https://formspree.io/leoburgatte@gmail.com">
   <div class="row">
@@ -298,7 +271,7 @@
         <label for="fname">*Message</label>
       </div></div>
   <textarea name="message" placeholder="Your message" style="height:200px"></textarea>
-  <button type="submit">Send </button>
+  <button type="submit">Send</button>
 </form>
          
          
@@ -386,12 +359,6 @@ function topFunction() {
     
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("email","email",
-  "Please enter a valid email address");
                 
 </script>
             
