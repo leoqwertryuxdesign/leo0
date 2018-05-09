@@ -88,6 +88,8 @@ h3{
 		box-sizing: border-box;
 	}
 
+
+
 /* Containers */
 
 	.container {
@@ -338,130 +340,7 @@ h3{
 
 /* Grid */
 
-	.row {
-		border-bottom: solid 1px transparent;
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-	.row > * {
-		float: left;
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-	.row:after, .row:before {
-		content: '';
-		display: block;
-		clear: both;
-		height: 0;
-	}
-
-	.row.uniform > * > :first-child {
-		margin-top: 0;
-	}
-
-	.row.uniform > * > :last-child {
-		margin-bottom: 0;
-	}
-
-	.row.\30 \25 > * {
-		padding: 0 0 0 0rem;
-	}
-
-	.row.\30 \25 {
-		margin: 0 0 -1px 0rem;
-	}
-
-	.row.uniform.\30 \25 > * {
-		padding: 0rem 0 0 0rem;
-	}
-
-	.row.uniform.\30 \25 {
-		margin: 0rem 0 -1px 0rem;
-	}
-
-	.row > * {
-		padding: 0 0 0 2rem;
-	}
-
-	.row {
-		margin: 0 0 -1px -2rem;
-	}
-
-	.row.uniform > * {
-		padding: 2rem 0 0 2rem;
-	}
-
-	.row.uniform {
-		margin: -2rem 0 -1px -2rem;
-	}
-
-	.row.\32 00\25 > * {
-		padding: 0 0 0 4rem;
-	}
-
-	.row.\32 00\25 {
-		margin: 0 0 -1px -4rem;
-	}
-
-	.row.uniform.\32 00\25 > * {
-		padding: 4rem 0 0 4rem;
-	}
-
-	.row.uniform.\32 00\25 {
-		margin: -4rem 0 -1px -4rem;
-	}
-
-	.row.\31 50\25 > * {
-		padding: 0 0 0 3rem;
-	}
-
-	.row.\31 50\25 {
-		margin: 0 0 -1px -3rem;
-	}
-
-	.row.uniform.\31 50\25 > * {
-		padding: 3rem 0 0 3rem;
-	}
-
-	.row.uniform.\31 50\25 {
-		margin: -3rem 0 -1px -3rem;
-	}
-
-	.row.\35 0\25 > * {
-		padding: 0 0 0 1rem;
-	}
-
-	.row.\35 0\25 {
-		margin: 0 0 -1px -1rem;
-	}
-
-	.row.uniform.\35 0\25 > * {
-		padding: 1rem 0 0 1rem;
-	}
-
-	.row.uniform.\35 0\25 {
-		margin: -1rem 0 -1px -1rem;
-	}
-
-	.row.\32 5\25 > * {
-		padding: 0 0 0 0.5rem;
-	}
-
-	.row.\32 5\25 {
-		margin: 0 0 -1px -0.5rem;
-	}
-
-	.row.uniform.\32 5\25 > * {
-		padding: 0.5rem 0 0 0.5rem;
-	}
-
-	.row.uniform.\32 5\25 {
-		margin: -0.5rem 0 -1px -0.5rem;
-	}
+	
 
 	.\31 2u, .\31 2u\24 {
 		width: 100%;
@@ -596,86 +475,7 @@ h3{
 
 	@media screen and (max-width: 1680px) {
 
-		.row > * {
-			padding: 0 0 0 2rem;
-		}
-
-		.row {
-			margin: 0 0 -1px -2rem;
-		}
-
-		.row.uniform > * {
-			padding: 2rem 0 0 2rem;
-		}
-
-		.row.uniform {
-			margin: -2rem 0 -1px -2rem;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 4rem;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -4rem;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 4rem 0 0 4rem;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -4rem 0 -1px -4rem;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 3rem;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -3rem;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 3rem 0 0 3rem;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -3rem 0 -1px -3rem;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 1rem;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -1rem;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 1rem 0 0 1rem;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -1rem 0 -1px -1rem;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.5rem;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.5rem;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.5rem 0 0 0.5rem;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.5rem 0 -1px -0.5rem;
-		}
-
+		
 		.\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
 			width: 100%;
 			clear: none;
@@ -811,85 +611,7 @@ h3{
 
 	@media screen and (max-width: 1280px) {
 
-		.row > * {
-			padding: 0 0 0 1.5rem;
-		}
-
-		.row {
-			margin: 0 0 -1px -1.5rem;
-		}
-
-		.row.uniform > * {
-			padding: 1.5rem 0 0 1.5rem;
-		}
-
-		.row.uniform {
-			margin: -1.5rem 0 -1px -1.5rem;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 3rem;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -3rem;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 3rem 0 0 3rem;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -3rem 0 -1px -3rem;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25rem;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -2.25rem;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 2.25rem 0 0 2.25rem;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -2.25rem 0 -1px -2.25rem;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 0.75rem;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -0.75rem;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 0.75rem 0 0 0.75rem;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -0.75rem 0 -1px -0.75rem;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.375rem;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.375rem;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.375rem 0 0 0.375rem;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.375rem 0 -1px -0.375rem;
-		}
+		
 
 		.\31 2u\28large\29, .\31 2u\24\28large\29 {
 			width: 100%;
@@ -1026,85 +748,7 @@ h3{
 
 	@media screen and (max-width: 980px) {
 
-		.row > * {
-			padding: 0 0 0 1.5rem;
-		}
-
-		.row {
-			margin: 0 0 -1px -1.5rem;
-		}
-
-		.row.uniform > * {
-			padding: 1.5rem 0 0 1.5rem;
-		}
-
-		.row.uniform {
-			margin: -1.5rem 0 -1px -1.5rem;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 3rem;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -3rem;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 3rem 0 0 3rem;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -3rem 0 -1px -3rem;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25rem;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -2.25rem;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 2.25rem 0 0 2.25rem;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -2.25rem 0 -1px -2.25rem;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 0.75rem;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -0.75rem;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 0.75rem 0 0 0.75rem;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -0.75rem 0 -1px -0.75rem;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.375rem;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.375rem;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.375rem 0 0 0.375rem;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.375rem 0 -1px -0.375rem;
-		}
+		
 
 		.\31 2u\28medium\29, .\31 2u\24\28medium\29 {
 			width: 100%;
@@ -1241,85 +885,7 @@ h3{
 
 	@media screen and (max-width: 736px) {
 
-		.row > * {
-			padding: 0 0 0 1.25rem;
-		}
-
-		.row {
-			margin: 0 0 -1px -1.25rem;
-		}
-
-		.row.uniform > * {
-			padding: 1.25rem 0 0 1.25rem;
-		}
-
-		.row.uniform {
-			margin: -1.25rem 0 -1px -1.25rem;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 2.5rem;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -2.5rem;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 2.5rem 0 0 2.5rem;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -2.5rem 0 -1px -2.5rem;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 1.875rem;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -1.875rem;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 1.875rem 0 0 1.875rem;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -1.875rem 0 -1px -1.875rem;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 0.625rem;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -0.625rem;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 0.625rem 0 0 0.625rem;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -0.625rem 0 -1px -0.625rem;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.3125rem;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.3125rem;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.3125rem 0 0 0.3125rem;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.3125rem 0 -1px -0.3125rem;
-		}
+		
 
 		.\31 2u\28small\29, .\31 2u\24\28small\29 {
 			width: 100%;
@@ -1456,85 +1022,7 @@ h3{
 
 	@media screen and (max-width: 480px) {
 
-		.row > * {
-			padding: 0 0 0 1.25rem;
-		}
-
-		.row {
-			margin: 0 0 -1px -1.25rem;
-		}
-
-		.row.uniform > * {
-			padding: 1.25rem 0 0 1.25rem;
-		}
-
-		.row.uniform {
-			margin: -1.25rem 0 -1px -1.25rem;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 2.5rem;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -2.5rem;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 2.5rem 0 0 2.5rem;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -2.5rem 0 -1px -2.5rem;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 1.875rem;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -1.875rem;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 1.875rem 0 0 1.875rem;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -1.875rem 0 -1px -1.875rem;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 0.625rem;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -0.625rem;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 0.625rem 0 0 0.625rem;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -0.625rem 0 -1px -0.625rem;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.3125rem;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.3125rem;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.3125rem 0 0 0.3125rem;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.3125rem 0 -1px -0.3125rem;
-		}
+		
 
 		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
 			width: 100%;
@@ -1926,7 +1414,7 @@ h3{
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #111216; /* Add a dark-grey background on hover */
 }
 
 		hr.major {
@@ -2250,241 +1738,67 @@ height: 3em;
 
 /* Form */
 
-	form {
-		margin: 0 0 2rem 0;
-	}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
 
-	label {
-		display: block;
-		font-size: 0.9rem;
-		font-weight: 700;
-		margin: 0 0 1rem 0;
-	}
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		border-radius: 2px;
-		border: none;
-		border: solid 1px;
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0 1rem;
-		text-decoration: none;
-		width: 100%;
-	}
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
 
-		input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
+/* Style the container */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
 
-	.select-wrapper {
-		text-decoration: none;
-		display: block;
-		position: relative;
-	}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
 
-		.select-wrapper:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
 
-		.select-wrapper:before {
-			content: '\f078';
-			display: block;
-			height: 2.75rem;
-			line-height: 2.75rem;
-			pointer-events: none;
-			position: absolute;
-			right: 0;
-			text-align: center;
-			top: 0;
-			width: 2.75rem;
-		}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-		.select-wrapper select::-ms-expand {
-			display: none;
-		}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: 2.75rem;
-	}
-
-	textarea {
-		padding: 0.75rem 1rem;
-	}
-
-	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		display: block;
-		float: left;
-		margin-right: -2rem;
-		opacity: 0;
-		width: 1rem;
-		z-index: -1;
-	}
-
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
-			text-decoration: none;
-			cursor: pointer;
-			display: inline-block;
-			font-size: 1rem;
-			font-weight: 400;
-			padding-left: 2.4rem;
-			padding-right: 0.75rem;
-			position: relative;
-		}
-
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-			}
-
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				border-radius: 2px;
-				border: solid 1px;
-				content: '';
-				display: inline-block;
-				height: 1.65rem;
-				left: 0;
-				line-height: 1.58125rem;
-				position: absolute;
-				text-align: center;
-				top: 0;
-				width: 1.65rem;
-			}
-
-		input[type="checkbox"]:checked + label:before,
-		input[type="radio"]:checked + label:before {
-			content: '\f00c';
-		}
-
-	input[type="checkbox"] + label:before {
-		border-radius: 2px;
-	}
-
-	input[type="radio"] + label:before {
-		border-radius: 100%;
-	}
-
-	::-webkit-input-placeholder {
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		opacity: 1.0;
-	}
-
-	.formerize-placeholder {
-		opacity: 1.0;
-	}
-
-	label {
-		color: #555;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		background: rgba(144, 144, 144, 0.075);
-		border-color: rgba(144, 144, 144, 0.25);
-	}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			border-color: #8a4680;
-			box-shadow: 0 0 0 1px #8a4680;
-		}
-
-	.select-wrapper:before {
-		color: rgba(144, 144, 144, 0.25);
-	}
-
-	input[type="checkbox"] + label,
-	input[type="radio"] + label {
-		color: #444;
-	}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			background: rgba(144, 144, 144, 0.075);
-			border-color: rgba(144, 144, 144, 0.25);
-		}
-
-	input[type="checkbox"]:checked + label:before,
-	input[type="radio"]:checked + label:before {
-		background-color: #8a4680;
-		border-color: #8a4680;
-		color: #ffffff;
-	}
-
-	input[type="checkbox"]:focus + label:before,
-	input[type="radio"]:focus + label:before {
-		border-color: #8a4680;
-		box-shadow: 0 0 0 1px #8a4680;
-	}
-
-	::-webkit-input-placeholder {
-		color: #bbb !important;
-	}
-
-	:-moz-placeholder {
-		color: #bbb !important;
-	}
-
-	::-moz-placeholder {
-		color: #bbb !important;
-	}
-
-	:-ms-input-placeholder {
-		color: #bbb !important;
-	}
-
-	.formerize-placeholder {
-		color: #bbb !important;
-	}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 
 /* Icon */
 
@@ -3128,14 +2442,25 @@ height: 3em;
 				border-color: rgba(0, 0, 0, 0.15);
 			}
 
-			.wrapper.style2 input[type="submit"],
-			.wrapper.style2 input[type="reset"],
-			.wrapper.style2 input[type="button"],
+			.wrapper.style2 input[type="submit"] {
+				background-color: #111216;
+				color: #f2f2f2 !important;
+                line-height: 1em;                
+                font-family: 'Squada One', cursive; 
+			}
+
+            .wrapper.style2 input[type="submit"]:hover {
+				background-color: #cc112c;
+			}
+
+            			
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: #000;
+				background-color: #111216;
 				color: #f2f2f2 !important;
+
 			}
+
 
 				.wrapper.style2 input[type="submit"].alt,
 				.wrapper.style2 input[type="reset"].alt,
@@ -3197,6 +2522,8 @@ height: 3em;
 					}
 
 			.wrapper.style2 label {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
 				color: #000;
 			}
 
@@ -4087,7 +3414,7 @@ height: 3em;
 		visibility: hidden;
 		width: 20rem;
 		z-index: 10002;
-        background-color: #cc112c;
+        background-color: #343535;
         text-align: center;
 	}
 
@@ -4115,7 +3442,7 @@ height: 3em;
 					}
 
 						#menu > ul.links > li > a:not(.button):hover {
-							color: #FFF;
+							color: #cc112c;
 						}
 
 					#menu > ul.links > li > .button {
@@ -4164,7 +3491,7 @@ height: 3em;
 			}
 
 			#menu .close:hover {
-				color: #FFF;
+				color: #cc112c;
 			}
 
 			@media screen and (max-width: 736px) {
