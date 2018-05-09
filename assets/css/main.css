@@ -66,7 +66,7 @@ opacity: 0.7;
 #text2{
     color: gray;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
     font-family: 'Squada One', cursive;
     font-weight: lighter;
@@ -82,9 +82,7 @@ opacity: 0.7;
     padding: 0 0 1em 0;
 }
 
-#text2:hover{
-    color: #cc112c;
-}
+
 
 
 h3{
@@ -242,7 +240,7 @@ h3{
 	@media screen and (max-width: 736px) {
         
                mark{
-        font-size: 1em;    
+        font-size: 0.9em;    
         }
         
         h5{
@@ -2065,6 +2063,10 @@ input[type=submit] {
 					}
 
 			@media screen and (max-width: 480px) {
+                
+                .wrapper.style2 label {
+                    font-size: 0.9em;
+                }
 
 				ul.actions {
 					margin: 0 0 2rem 0;
@@ -2596,7 +2598,7 @@ input[type=submit] {
 			.wrapper.style2 label {
                 font-family: 'Poppins', sans-serif;
                 font-weight: 400;
-				color: #000;
+				color: #111216;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -3053,7 +3055,7 @@ input[type=submit] {
 			margin: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 680px) {
 
 			.grid-style > * {
 				width: 100%;
