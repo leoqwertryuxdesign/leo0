@@ -2475,6 +2475,11 @@ input[type=submit] {
 
 			}
 
+            .wrapper.style2 button:hover {
+				background-color: #cc112c;
+
+			}
+
 
 				.wrapper.style2 input[type="submit"].alt,
 				.wrapper.style2 input[type="reset"].alt,
@@ -3427,7 +3432,6 @@ input[type=submit] {
 		visibility: hidden;
 		width: 20rem;
 		z-index: 10002;
-        background-color: #343535;
         text-align: center;
 	}
 
