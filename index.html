@@ -256,13 +256,13 @@
 								<p class="special2"><span style="color: #cc112c">C</span>ONTACT</p>
 
      <div class="container">
-  <form action="mailto:leoburgatte@gmail.com" method="post" enctype="text/plain">
+  <form action="https://formspree.io/leoburgatte@gmail.com" method="POST" enctype="text/plain">
     <div class="row">
       <div class="col-25">
         <label for="fname">*Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="name" placeholder="Your name..">
       </div>
     </div>
     <div class="row">
@@ -270,7 +270,7 @@
         <label for="lname">*Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+        <input type="email" id="lname" name="email" placeholder="Your Email..">
       </div>
     </div>
     <div class="row">
@@ -278,7 +278,7 @@
         <label for="subject">*Message</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
       </div>
     </div>
     <div class="row">
@@ -296,12 +296,6 @@
 
         		<!-- Form -->
         
-        <form action="https://formspree.io/leoburgatte@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Sendto">
-</form>
         
 		<!-- Footer -->
 			<footer id="footer">
