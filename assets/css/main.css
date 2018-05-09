@@ -32,7 +32,7 @@
     background-color: #cc112c;
     color: white;
         font-size: 1.5em;
-        font-family: 'Squada One', cursive;
+        font-family: 'Poppins', sans-serif;
         font-weight: lighter;
 }
 
@@ -145,6 +145,10 @@ h3{
 		.container {
 			width: 80rem;
 		}
+        
+       .wrapper.style3 p {
+    font-size: 1rem;
+}
 
 	}
 
@@ -200,6 +204,10 @@ h3{
 	}
 
 	@media screen and (max-width: 736px) {
+        
+               mark{
+        font-size: 1em;    
+        }
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -239,6 +247,10 @@ h3{
 	}
 
 	@media screen and (max-width: 420px) {
+        
+        .box .content {
+    padding: 1rem;
+}        
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -267,6 +279,10 @@ h3{
     font-size: 0.95em;
     text-align: center;
 }
+        
+    .wrapper.style3 p {
+    font-size: 0.75rem;
+}
 
 	}
 
@@ -277,6 +293,10 @@ h3{
     font-size: 0.75em;
     text-align: center;
 }
+    
+    .wrapper.style3 p {
+    font-size: 0.75rem;
+}
     }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
@@ -285,6 +305,9 @@ h3{
     padding-bottom: 1em;
     font-size: 0.9em;
     text-align: center;
+}
+    .wrapper.style3 p {
+    font-size: 0.75rem;
 }
     }
 
@@ -295,6 +318,9 @@ h3{
     font-size: 1.08em;
     text-align: center;
 }
+    .wrapper.style3 p {
+    font-size: 0.75rem;
+}
     }
 
 @media screen and (min-width: 413px) and (max-width: 415px) {
@@ -304,6 +330,10 @@ h3{
     font-size: 1.08em;
     text-align: center;
 }
+    .wrapper.style3 p {
+    font-size: 0.75rem;
+}
+
     }
 
 /* Grid */
@@ -1711,6 +1741,12 @@ h3{
 		}
 
 		@media screen and (max-width: 480px) {
+            
+            		.box > :last-child,
+		.box > :last-child > :last-child,
+		.box > :last-child > :last-child > :last-child {
+			font-size:0.95em;
+		}
 
 			html {
 				font-size: 12pt;
@@ -1962,12 +1998,11 @@ h3{
 			}
 
 		.box header h2 {
-			margin-bottom: 1rem;
+			margin-bottom: 0.2rem;
 		}
 
 		.box header p {
 			text-transform: uppercase;
-			font-size: .75rem;
 			font-weight: 300;
 			margin: 0 0 .25rem 0;
 			padding: 0 0 .75rem 0;
@@ -1986,10 +2021,6 @@ h3{
 				background-color: #cc112c;
 			}
 
-		.box .content {
-			padding: 2rem;
-            
-		}
 
 		.box > :last-child,
 		.box > :last-child > :last-child,
@@ -2006,11 +2037,16 @@ h3{
 			padding: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 421px) and (max-width: 1920px) {
 
 			.box .content {
 				padding: 2rem;
 			}
+            
+        .box header p {
+        font-size: .75rem;
+
+		}
 
 		}
 
@@ -2106,6 +2142,11 @@ h3{
 		}
 
 		@media screen and (max-width: 480px) {
+            
+                    .box header p {
+        font-size: .55rem;
+
+		}
 
 			input[type="submit"],
 			input[type="reset"],
@@ -3493,7 +3534,6 @@ height: 3em;
 
 			.wrapper.style3 p {
 				text-transform: uppercase;
-				font-size: .75rem;
 				font-weight: 300;
 				margin: 0 0 .5rem 0;
 				padding: 0 0 1rem 0;
@@ -3533,11 +3573,12 @@ height: 3em;
 				z-index: 1;
 			}
 
-		@media screen and (max-width: 1920px) {
+		@media screen and (min-width: 600px) and (max-width: 1920px) {
 
 			.wrapper > .inner {
-				width: 90%;
+				width: 80%;
 			}
+            
 
 			.wrapper.style3 {
 				background-attachment: scroll;
@@ -3548,7 +3589,7 @@ height: 3em;
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 1rem 0 1rem 0 ;
+				padding: 2rem 0 2rem 0 ;
 			}
 
 		}
@@ -4008,11 +4049,16 @@ height: 3em;
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 590px) {
 
 		#header {
 			min-width: 320px;
 		}
+        
+
+			.wrapper > .inner {
+				width: 90%;
+			}
 
 	}
 
