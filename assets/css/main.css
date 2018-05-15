@@ -1686,10 +1686,22 @@ h3{
 
 		@media screen and (max-width: 480px) {
             
+        #header {
+			min-width: 320px;
+		}
+            
+        .wrapper > .inner {
+            width: 100%;
+            }
+            
+            
+            
               	h4 {
 		font-size: 0.9rem;
         color: #555;
     text-align: justify;
+                    padding-left: 2em;
+                    padding-right: 2em;
 	}
             
             .wrapper.style2 button{
@@ -2509,6 +2521,7 @@ input[type=submit] {
 
 			.wrapper.style2 blockquote {
 				border-left-color: rgba(0, 0, 0, 0.15);
+                
 			}
 
 			.wrapper.style2 code {
@@ -3461,7 +3474,7 @@ input[type=submit] {
 
 	}
 
-	@media screen and (max-width: 590px) {
+	@media screen and (min-width: 481px) and (max-width: 590px) {
 
 		#header {
 			min-width: 320px;
