@@ -1585,6 +1585,7 @@ h3{
 		}
 
 		@media screen and (max-width: 736px) {
+        
 
 			.box .content {
 				padding: 0.75rem;
@@ -3085,6 +3086,10 @@ input[type=submit] {
 		}
 
 		@media screen and (max-width: 1280px) {
+            
+              .box .image.fit img {
+                filter: none;
+            }
 
 			.grid-style > * {
 				width: 100%;
@@ -3422,6 +3427,8 @@ input[type=submit] {
 			}
 
 			@media screen and (max-width: 736px) {
+                
+                
 
 				#header > a {
 					padding: 0 0.5em;
