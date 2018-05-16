@@ -46,7 +46,7 @@
     background-color: #cc112c;
     color: white;
         font-size: 1.5em;
-        font-family: 'Poppins', sans-serif;
+/*        font-family: 'Poppins', sans-serif;*/
         font-weight: lighter;
 }
 
@@ -1376,7 +1376,7 @@ h3{
 		}
 
 	h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
         color: #ccccccf2;
         
 	}
@@ -1532,6 +1532,7 @@ h3{
 			}
 
 .box .image.fit img:hover {
+    opacity: 0.8;
   filter: none;
   -webkit-filter: grayscale(0%);
 			}
@@ -3053,7 +3054,7 @@ input[type=submit] {
 		}
 
 		.grid-style > * {
-			padding: 1.5rem;
+			padding: 0.75rem;
 			width: calc(50% + 2rem);
 		}
 
@@ -3526,6 +3527,7 @@ input[type=submit] {
 			#menu > ul.links {
 				list-style: none;
 				padding: 0;
+                padding-top: 1em;
 			}
 
 				#menu > ul.links > li {
