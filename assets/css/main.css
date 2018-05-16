@@ -190,7 +190,7 @@ h3{
 		}
         
        .wrapper.style3 p {
-    font-size: 1rem;
+    font-size: 3rem;
 }
 
 	}
@@ -328,7 +328,7 @@ h3{
 }
         
     .wrapper.style3 p {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
 }
 
 	}
@@ -342,7 +342,7 @@ h3{
 }
     
     .wrapper.style3 p {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
     }
 
@@ -354,7 +354,7 @@ h3{
     text-align: center;
 }
     .wrapper.style3 p {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
 }
     }
 
@@ -366,9 +366,14 @@ h3{
     text-align: center;
 }
     .wrapper.style3 p {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
 }
+    
+h3{
+    font-size: 1em;
     }
+
+}
 
 @media screen and (min-width: 413px) and (max-width: 415px) {
     span#text{
@@ -1287,6 +1292,7 @@ h3{
         
             p.special{
                 padding-top: 1em;
+                font-size: 1.5em;
             }
 	
 
@@ -1335,7 +1341,6 @@ h3{
 
 		p.special {
 			text-transform: uppercase;
-			font-size: 2em;
 			font-weight: 100;
 			margin: 0 0 .5rem 0;
 			letter-spacing: .25rem;
@@ -1366,8 +1371,10 @@ h3{
 
 	h1, h3, h4, h6 {
 		font-weight: 300;
-		line-height: 1.5;
+		line-height: 2.5;
 		margin: 0 0 1rem 0;
+        padding-left: 2em;
+        padding-right: 2em;
 	}
 
 		h1 a, h3 a, h4 a, h6 a {
@@ -1382,10 +1389,9 @@ h3{
 	}
 
 	h3 {
-		font-size: 2rem;
         font-family: 'Squada One', cursive;
         font-weight: 200;
-        color: #111216;
+        color: white;
 	}
 
 	h5 {
@@ -1737,7 +1743,7 @@ margin-bottom: -1.8em;
 	button,
 	.button {
 		background-color: #f2f2f2;
-		color: #000 !important;
+		color: white;
 	}
 
 		input[type="submit"]:hover,
@@ -2730,7 +2736,7 @@ input[type=submit] {
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/work.jpg);
+			background-image: url(../../images/work2.jpg);
 			background-size:contain;
 			background-position: center;
 			position: relative;
@@ -3002,6 +3008,14 @@ input[type=submit] {
 			}
 
 		@media screen and (min-width: 600px) and (max-width: 1920px) {
+            
+        p.special{
+            font-size: 3em;
+            }
+            
+            	h3 {
+		font-size: 2rem;
+            }
 
 			.wrapper > .inner {
 				width: 80%;
@@ -3278,6 +3292,10 @@ input[type=submit] {
                 margin: 0 auto ;
                 text-align: center;
 			}
+    
+    h3{
+        font-size: 1.5sem;
+    }
     
 }
 
