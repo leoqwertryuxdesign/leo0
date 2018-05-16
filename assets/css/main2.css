@@ -34,6 +34,10 @@
   outline: 0;
 }  
 
+.player .vp-controls .play-bar{
+    background-color: blue;
+}
+
 	body {
 		line-height: 1;
 	}
