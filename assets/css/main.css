@@ -1385,7 +1385,7 @@ h3{
             }
 
 	h1, h3, h4, h6 {
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 2.5;
 		margin: 0 0 1rem 0;
         padding-left: 2em;
@@ -1566,7 +1566,7 @@ h3{
 		.box header p {
 			text-transform: uppercase;
 			font-size: .75rem;
-			font-weight: 300;
+			font-weight: 500;
 			margin: 0 0 .25rem 0;
 			padding: 0 0 .75rem 0;
 			letter-spacing: .25rem;
@@ -2750,7 +2750,7 @@ input[type=submit] {
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/work2.jpg);
+			background-image: url(../../images/work5.jpg);
 			background-size:contain;
 			background-position: center;
 			position: relative;
@@ -2770,7 +2770,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #e5e5e5;
 			}
 
 			.wrapper.style3 blockquote {
