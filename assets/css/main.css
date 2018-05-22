@@ -35,7 +35,7 @@
 
 @font-face{
     font-family: "Zekton";
-    src: url('zekton rg.ttf'),
+    src: url('assets/fonts/zekton rg.ttf'),
 }
 
     textarea:focus {
