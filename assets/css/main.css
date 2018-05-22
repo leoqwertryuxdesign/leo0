@@ -2783,9 +2783,9 @@ input[type=submit] {
 			}
 
 		.wrapper.style3 {
-			background-color: #000;
+			background-color: #111216;
 			color: #bfbfbf;
-			background-image: url(../../images/work5.jpg);
+/*			background-image: url(../../images/work5.jpg);*/
 			background-size:contain;
 			background-position: center;
 			position: relative;
@@ -3046,7 +3046,7 @@ input[type=submit] {
 				transition-delay: 1.25s;
 				content: '';
 				display: block;
-				background-color: rgba(0, 0, 0, 0.95);
+/*				background-color: rgba(0, 0, 0, 0.95);*/
 				height: 100%;
 				left: 0;
 				opacity: 0.75;
