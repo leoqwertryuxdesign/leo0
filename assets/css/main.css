@@ -62,7 +62,7 @@ body {
 	}
 
     mark {
-    background-color: #cc112c;
+    background-color: #bc2032;
     color: white;
         font-size: 1.5em;
 /*        font-family: 'Poppins', sans-serif;*/
@@ -90,7 +90,7 @@ opacity: 0.7;
 }
 
 #text:hover{
-    color: #cc112c;
+    color: #bc2032;
 }
 
 #text2{
@@ -1507,7 +1507,7 @@ h3{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #cc112c; /* Set a background color */
+    background-color: #bc2032; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
         font-family: "Squada One", cursive;
@@ -1615,7 +1615,7 @@ h3{
 				left: 0;
 				width: 75%;
 				height: 0.2em;
-				background-color: #cc112c;
+				background-color: #bc2032;
 			}
 
 		.box .content {
@@ -1850,7 +1850,7 @@ margin-bottom: -1.8em;
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #cc112c;
+			background-color: #bc2032;
 			color: #ffffff !important;
 		}
 
@@ -1859,7 +1859,7 @@ margin-bottom: -1.8em;
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #cc112c;
+				background-color: #bc2032;
 			}
 
 			input[type="submit"].special:active,
@@ -1867,7 +1867,7 @@ margin-bottom: -1.8em;
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #cc112c;
+				background-color: #bc2032;
 			}
 
 /* Form */
@@ -1900,7 +1900,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #cc112c;
+  background-color: #bc2032;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -2338,7 +2338,7 @@ input[type=submit] {
 		}
 
 		.wrapper.style1 {
-			background-color: #cc112c;
+			background-color: #bc2032;
 			color: #e2d1df;
 		}
 
@@ -2440,7 +2440,7 @@ input[type=submit] {
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
 					background-color: #ffffff;
-					color: #cc112c !important;
+					color: #bc2032 !important;
 				}
 
 			.wrapper.style1 label {
@@ -2560,7 +2560,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style2 a {
-				color: #cc112c;
+				color: #bc2032;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -2597,7 +2597,7 @@ input[type=submit] {
 			}
 
             .wrapper.style2 input[type="submit"]:hover {
-				background-color: #cc112c;
+				background-color: #bc2032;
 			}
 
             			
@@ -2612,7 +2612,7 @@ input[type=submit] {
 			}
 
             .wrapper.style2 button:hover {
-				background-color: #cc112c;
+				background-color: #bc2032;
 
 			}
 
@@ -2656,7 +2656,7 @@ input[type=submit] {
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #cc112c;
+					background-color: #bc2032;
 					color: #ffffff !important;
 				}
 
@@ -2665,7 +2665,7 @@ input[type=submit] {
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #cc112c;
+						background-color: #bc2032;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -2673,7 +2673,7 @@ input[type=submit] {
 					.wrapper.style2 input[type="button"].special:active,
 					.wrapper.style2 button.special:active,
 					.wrapper.style2 .button.special:active {
-						background-color: #cc112c;
+						background-color: #bc2032;
 					}
 
 			.wrapper.style2 label {
@@ -2696,8 +2696,8 @@ input[type=submit] {
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #cc112c;
-					box-shadow: 0 0 0 1px #cc112c;
+					border-color: #bc2032;
+					box-shadow: 0 0 0 1px #bc2032;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -2717,15 +2717,15 @@ input[type=submit] {
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #cc112c;
-				border-color: #cc112c;
+				background-color: #bc2032;
+				border-color: #bc2032;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #cc112c;
-				box-shadow: 0 0 0 1px #cc112c;
+				border-color: #bc2032;
+				box-shadow: 0 0 0 1px #bc2032;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -2795,7 +2795,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 a {
-				color: #cc112c;
+				color: #bc2032;
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2887,7 +2887,7 @@ input[type=submit] {
 				.wrapper.style3 input[type="button"].special,
 				.wrapper.style3 button.special,
 				.wrapper.style3 .button.special {
-					background-color: #cc112c;
+					background-color: #bc2032;
 					color: #ffffff !important;
 				}
 
@@ -2896,7 +2896,7 @@ input[type=submit] {
 					.wrapper.style3 input[type="button"].special:hover,
 					.wrapper.style3 button.special:hover,
 					.wrapper.style3 .button.special:hover {
-						background-color: #cc112c;
+						background-color: #bc2032;
 					}
 
 					.wrapper.style3 input[type="submit"].special:active,
@@ -2904,7 +2904,7 @@ input[type=submit] {
 					.wrapper.style3 input[type="button"].special:active,
 					.wrapper.style3 button.special:active,
 					.wrapper.style3 .button.special:active {
-						background-color: #cc112c;
+						background-color: #bc2032;
 					}
 
 			.wrapper.style3 label {
@@ -2924,8 +2924,8 @@ input[type=submit] {
 				.wrapper.style3 input[type="password"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #cc112c;
-					box-shadow: 0 0 0 1px #cc112c;
+					border-color: #bc2032;
+					box-shadow: 0 0 0 1px #bc2032;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -2945,15 +2945,15 @@ input[type=submit] {
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: #cc112c;
-				border-color: #cc112c;
+				background-color: #bc2032;
+				border-color: #bc2032;
 				color: #ffffff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #cc112c;
-				box-shadow: 0 0 0 1px #cc112c;
+				border-color: #bc2032;
+				box-shadow: 0 0 0 1px #bc2032;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3030,7 +3030,7 @@ input[type=submit] {
 					left: 0;
 					width: 50%;
 					height: 1px;
-					background-color: #cc112c;
+					background-color: #bc2032;
 				}
 
 			.wrapper.style3:before {
@@ -3472,7 +3472,7 @@ input[type=submit] {
 		}
 
 			#header > a:hover {
-				color: #cc112c;
+				color: #bc2032;
 			}
 
 			#header > a[href="#menu"] {
@@ -3585,7 +3585,7 @@ input[type=submit] {
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #cc112c;
+		background: #bc2032;
 		box-shadow: none;
 		color: #000;
 		max-width: 80%;
@@ -3826,7 +3826,7 @@ input[type=submit] {
 				}
 
 				.banner .indicators li.visible:before {
-					background: #cc112c;
+					background: #bc2032;
 				}
 
 		.banner > article {
@@ -4016,7 +4016,7 @@ input[type=submit] {
 		}
 
 			#footer a:hover {
-				color: #cc112c;
+				color: #bc2032;
 			}
 
 		#footer .copyright {
