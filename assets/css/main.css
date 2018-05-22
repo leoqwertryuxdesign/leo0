@@ -40,7 +40,7 @@
 
 
 body {
-    animation: myfadeInAnimation 2s;
+    animation: myfadeInAnimation 2.5s;
 }
 
 @keyframe myfadeInAnimation {
@@ -3765,10 +3765,10 @@ input[type=submit] {
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-moz-transition: opacity 1s ease-in-out, visibility 1.5s;
+			-webkit-transition: opacity 1s ease-in-out, visibility 1.5s;
+			-ms-transition: opacity 1s ease-in-out, visibility 1.5s;
+			transition: opacity 1s ease-in-out, visibility 1.5s;
 			background: #000000;
 			content: '';
 			display: block;
