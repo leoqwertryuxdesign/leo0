@@ -1518,6 +1518,9 @@ h3{
 
 #myBtn:hover {
     background-color: #111216; /* Add a dark-grey background on hover */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff6b;
 }
 
 		hr.major {
