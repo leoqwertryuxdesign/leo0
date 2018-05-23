@@ -26,11 +26,10 @@
         <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
         
 	</head>
+    <div class="js">
 	<body>
-<!-- Preloader Start -->
-    <div id="preloader">
-        <div class="yummy-load"></div>
-    </div>
+         <div id="preloader"></div>
+        
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="logo"><a href="https://www.leonardoburgatte.com">
@@ -283,15 +282,13 @@ As an Interaction Design graduate, I believe that great design is more than just
 					&copy; 2018 <b>Leonardo Burgatte Design</b>. All rights reserved.
 				</div>
 			</footer>
-
+        
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-            <script src="assets/js/plugins.js"></script>
-            <script src="assets/js/active.js"></script>
             
             <script>
                 
@@ -299,14 +296,15 @@ As an Interaction Design graduate, I believe that great design is more than just
                 
    $(document).ready(function(){
        
-        var $window = $(window);
+    jQuery(document).ready(function($) {  
 
-    // :: 11.0 Preloader active code
-    $window.on('load', function () {
-        $('#preloader').fadeOut('slow', function () {
-            $(this).remove();
-        });
-    });
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+$(window).load(function(){
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+
+});
+       
                 
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
@@ -353,4 +351,5 @@ function topFunction() {
 
 
 	</body>
+    </div>
 </html>
