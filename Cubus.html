@@ -298,6 +298,15 @@ As an Interaction Design graduate, I believe that great design is more than just
 
                 
    $(document).ready(function(){
+       
+        var $window = $(window);
+
+    // :: 11.0 Preloader active code
+    $window.on('load', function () {
+        $('#preloader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+    });
                 
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
