@@ -1430,7 +1430,7 @@ h3{
 	}
 
 	h6 {
-		font-size: 7rem;
+		font-size: 7em;
         color: white;
         font-family: 'Squada One', cursive;
         text-transform: uppercase;
@@ -2761,7 +2761,7 @@ input[type=submit] {
 			}
 
 		.wrapper.style3 {
-			background-color: #009688;
+			background-color: #bc2032;
 			color: #bfbfbf;
 /*			background-image: url(../../images/work5.jpg);*/
 			background-size:contain;
