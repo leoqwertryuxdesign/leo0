@@ -1416,6 +1416,7 @@ h3{
 	h2 {
 		font-size: 1.3rem;
         color: #ccccccf2;
+        font-family: 'Squada One', cursive;
         
 	}
 
@@ -1583,10 +1584,11 @@ h3{
 			font-size: .75rem;
 			font-weight: 500;
 			margin: 0 0 .25rem 0;
-			padding: 0 0 .75rem 0;
+/*			padding: 0 0 .75rem 0;*/
 			letter-spacing: .25rem;
 		}
 
+/*
 			.box header p:after {
 				content: '';
 				position: absolute;
@@ -1599,6 +1601,7 @@ h3{
 				height: 0.2em;
 				background-color: #bc2032;
 			}
+*/
 
 		.box .content {
 			padding: 1rem;
@@ -3052,6 +3055,7 @@ input[type=submit] {
 	}
             
                 h4{
+                    font-size: 1.2em;
 		font-weight: 500;
 		line-height: 2.5;
 	}
@@ -3064,9 +3068,11 @@ input[type=submit] {
 	-o-transition: top 0.5s ease;
 	transition: top 0.5s ease;
 }
+/*
 .box:hover {
 	top: 0.7em;
 }
+*/
 }
 
 		@media screen and (min-width: 600px){
@@ -3083,7 +3089,7 @@ input[type=submit] {
             }
             
             	h3 {
-		font-size: 5rem;
+		font-size: 4rem;
             }
 
 			.wrapper > .inner {
