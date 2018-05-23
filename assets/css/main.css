@@ -1392,7 +1392,7 @@ h3{
 				right: 0;
 				bottom: 0;
 				left: 0;
-				width: 50%;
+				width: 70%;
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.125);
 			}
@@ -3012,8 +3012,8 @@ input[type=submit] {
 					right: 0;
 					bottom: 0;
 					left: 0;
-					width: 50%;
-					height: 1px;
+					width: 70%;
+					height: 2px;
 					background-color: #bc2032;
 				}
 
