@@ -1536,7 +1536,7 @@ h3{
 		color: #555;
 	}
 
-	h1, h4, h5, h6 {
+	h1, h5, h6 {
 		color: #555;
 	}
 
@@ -1745,7 +1745,6 @@ h3{
             
               	h4 {
 		font-size: 0.8rem;
-        color: #555;
                     padding-left: 2em;
                     padding-right: 2em;
 	}
@@ -2795,7 +2794,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #e5e5e5;
+/*				color: #e5e5e5;*/
 			}
 
 			.wrapper.style3 blockquote {
