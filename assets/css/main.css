@@ -204,7 +204,7 @@ h3{
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 880px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -698,7 +698,7 @@ h3{
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 880px) {
 
 		
 
@@ -1295,7 +1295,7 @@ h3{
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 880px) {
 
 			html {
 				font-size: 11pt;
@@ -3167,7 +3167,7 @@ input[type=submit] {
 			margin: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 880px) {
             
               .box .image.fit img {
                 filter: none;
@@ -3944,7 +3944,7 @@ input[type=submit] {
 		}
 
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 880px) {
 
 			.banner.full {
 				padding: 0;
