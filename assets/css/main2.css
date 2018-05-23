@@ -2761,7 +2761,7 @@ input[type=submit] {
 			}
 
 		.wrapper.style3 {
-			background-color: #bc2032;
+			background-color: #009688;
 			color: #bfbfbf;
 /*			background-image: url(../../images/work5.jpg);*/
 			background-size:contain;
@@ -3034,7 +3034,7 @@ input[type=submit] {
 				z-index: 1;
 			}
         
-        @media screen and (min-width: 600px) and (max-width: 5000px) {
+        @media screen and (min-width: 600px)and (max-width: 5000px) {
             
         #header > a:hover {
 				color: #bc2032;
