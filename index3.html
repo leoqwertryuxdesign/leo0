@@ -26,7 +26,6 @@
         <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
         
 	</head>
-    
 <style>
 #loading{
 	background-color: #111216;
@@ -41,44 +40,209 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-}
+	}
 #loading-center-absolute {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	height: 200px;
-	width: 200px;
-	margin-top: -100px;
-	margin-left: -100px;
+	height: 100px;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: -50px;	
 }
-#object{
-	width: 80px;
-	height: 80px;
-	background-color: #bc2032;
-	-webkit-animation: animate 1s infinite ease-in-out;
-	animation: animate 1s infinite ease-in-out;
+.object{
+	width: 1em;
+	height: 1em;
+	background-color: rgba(255,255,255,0);
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 60px;
-}
-@-webkit-keyframes animate {
-  0% { -webkit-transform: perspective(160px); }
-  50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
-  100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
+	border: 4px solid #bc2032;
+	left: 37px;
+	top: 37px;
+	position: absolute;
 }
 
-@keyframes animate {
-  0% { 
-    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
-  } 50% { 
-    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
-    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
-  } 100% { 
-    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
-    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
-  }
+#first_object{
+	-webkit-animation: first_object 1s infinite;
+	animation: first_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
 }
+#second_object{
+	-webkit-animation: second_object 1s infinite;
+	animation: second_object 1s infinite;
+}	
+#third_object{
+	-webkit-animation: third_object 1s infinite;
+	animation: third_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
+}	
+#forth_object{
+	-webkit-animation: forth_object 1s infinite;
+	animation: forth_object 1s infinite;
+}	
+	
+	
+	
+
+
+	
+@-webkit-keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	 
+}		
+@keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+	
+
+
+	
+@-webkit-keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}		
+@keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+
+
+
+@-webkit-keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+
+
+
+
+
+@-webkit-keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+
+
 
 
 
@@ -88,12 +252,14 @@
 <div id="loading">
 <div id="loading-center">
 <div id="loading-center-absolute">
-<div id="object"></div>
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+<div class="object" id="forth_object"></div>
 </div>
 </div>
  
 </div>
-
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="logo"><a href="https://www.leonardoburgatte.com">
