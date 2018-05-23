@@ -1504,13 +1504,6 @@ h3{
     font-size: 18px; /* Increase font size */
 }
 
-#myBtn:hover {
-    background-color: #111216; /* Add a dark-grey background on hover */
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffffff6b;
-}
-
 		hr.major {
 			margin: 3rem 0;
 		}
@@ -1771,8 +1764,8 @@ h3{
 width: 3em;
 height: 3em;
 margin-bottom: -1.8em;
-    margin-right: -1.1em;
-                border-radius: 10% 10% 50% 10%;
+margin-right: -1.1em;
+border-radius: 10% 10% 50% 10%;
 }
 
 		}
@@ -3047,6 +3040,17 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
+        #header > a:hover {
+				color: #bc2032;
+			}
+            
+        #myBtn:hover {
+    background-color: #111216; /* Add a dark-grey background on hover */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff6b;
+}
+            
             .align-center2 {
 		text-align: center;
 	}
@@ -3470,10 +3474,6 @@ input[type=submit] {
 			text-decoration: none;
 			color: #FFF;
 		}
-
-			#header > a:hover {
-				color: #bc2032;
-			}
 
 			#header > a[href="#menu"] {
 				text-decoration: none;
