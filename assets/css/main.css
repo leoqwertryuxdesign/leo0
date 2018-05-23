@@ -1498,7 +1498,7 @@ h3{
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: #bc2032; /* Set a background color */
-    color: white; /* Text color */
+    color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
         font-family: "Squada One", cursive;
     font-size: 18px; /* Increase font size */
