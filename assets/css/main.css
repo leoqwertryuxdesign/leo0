@@ -1331,8 +1331,8 @@ h3{
 		}
         
             p.special{
-                padding-top: 1em;
-                font-size: 1.5em;
+                
+                font-size: 3em;
             }
 	
 
@@ -3106,7 +3106,7 @@ input[type=submit] {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 2rem 0 2rem 0 ;
+				padding: 2rem 0 1rem 0 ;
 			}
 
 		}
