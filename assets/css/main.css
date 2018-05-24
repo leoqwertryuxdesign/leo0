@@ -337,7 +337,7 @@ h3{
 }
         
     .wrapper.style3 p {
-    font-size: 1.5rem;
+    font-size: 2em;
 }
 
 	}
@@ -366,7 +366,7 @@ h3{
 }
     
     .wrapper.style3 p {
-    font-size: 1.5rem;
+    font-size: 2em;
 }
     }
 
@@ -378,7 +378,7 @@ h3{
     text-align: center;
 }
     .wrapper.style3 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
     }
 
@@ -1332,7 +1332,7 @@ h3{
         
             p.special{
                 
-                font-size: 3em;
+                font-size: 2em;
             }
 	
 
@@ -3572,7 +3572,11 @@ input[type=submit] {
 
 	}
 
-	@media screen and (min-width: 481px) and (max-width: 590px) {
+	@media screen and (min-width: 481px) and (max-width: 599px) {
+        
+        p.special{
+            font-size: 2em;
+        }
 
 		#header {
 			min-width: 320px;
@@ -3957,8 +3961,8 @@ input[type=submit] {
 
 			.banner.full {
 				padding: 0;
-				min-height: 55vh;
-				height: 55vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
 			}
             
 
