@@ -1409,6 +1409,7 @@ h3{
                 font-family: 'Squada One', cursive;
             }
 
+/*
 	h1, h3{
 		font-weight: 500;
 		line-height: 2.5;
@@ -1416,6 +1417,7 @@ h3{
         padding-left: 2em;
         padding-right: 2em;
 	}
+*/
 
 		h1 a, h3 a, h4 a, h6 a {
 			color: inherit;
@@ -3548,7 +3550,7 @@ input[type=submit] {
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background-color: ##111216;
+			background-color: #111216;
 			box-shadow: none;
 			overflow: hidden;
 			position: absolute;
