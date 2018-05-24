@@ -1424,7 +1424,7 @@ h3{
 
 	h2 {
 		font-size: 1.3rem;
-        color: #ccccccf2;
+        color: #111216;
         
 	}
 
@@ -1534,9 +1534,13 @@ h3{
 		color: #555;
 	}
 
-	h1, h5 {
+	h5 {
 		color: #555;
 	}
+
+h1{
+    color: #111216;
+}
 
 	blockquote {
 		border-left-color: rgba(144, 144, 144, 0.25);
@@ -1585,6 +1589,7 @@ h3{
 		.box header h2 {
 			margin-bottom: 0rem;
             line-height: 1em;
+            padding-bottom: 0.2em;
 		}
 
 		.box header p {
@@ -1592,10 +1597,11 @@ h3{
 			font-size: .75rem;
 			font-weight: 500;
 			margin: 0 0 .25rem 0;
-			padding: 0 0 .75rem 0;
-			letter-spacing: .25rem;
+/*			padding: 0 0 .75rem 0;*/
+			letter-spacing: .1rem;
 		}
 
+/*
 			.box header p:after {
 				content: '';
 				position: absolute;
@@ -1608,17 +1614,18 @@ h3{
 				height: 0.2em;
 				background-color: #bc2032;
 			}
+*/
 
 		.box .content {
 			padding: 1rem;
-            
+             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.045);
 		}
 
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
-            background-color: #111216;
+            background-color: #f9f9f9;
             text-decoration: none;
             color: #a6a6a6;
 		}
@@ -2742,7 +2749,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style2 header p {
-				color: #999999;
+				color: #111216;
 			}
 
 			.wrapper.style2 table tbody tr {
