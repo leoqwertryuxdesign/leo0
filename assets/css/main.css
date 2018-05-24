@@ -1494,7 +1494,7 @@ h3{
 	}
 
     #myBtn {
-        opacity: 0.7;
+        opacity: 0.5;
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 2.5em; /* Place the button at the bottom of the page */
