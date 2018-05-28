@@ -3054,6 +3054,15 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
+        		#header > .logo {
+            transition: transform .5s
+		}
+
+				#header > .logo:hover {
+                    transform: scale(1.2);
+                    opacity: 0.7;
+				}
+            
         #header > a:hover {
 				color: #bc2032;
 			}
@@ -3463,13 +3472,8 @@ input[type=submit] {
 			#header > .logo a {
 				font-size: 1.25em;
 				color: #FFF;
-				text-decoration: none;
+				text-decoration: none;                
 			}
-
-				#header > .logo:hover {
-					opacity: 0.7;
-                    width: 2em;
-				}
 
 			#header > .logo span {
 				font-weight: 400;
