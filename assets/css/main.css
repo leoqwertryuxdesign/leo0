@@ -1598,7 +1598,7 @@ h1{
 			text-transform: uppercase;
 			font-size: .75rem;
 			font-weight: 500;
-			margin: 0 0 .25rem 0;
+			margin: 0 0 0 0;
 /*			padding: 0 0 .75rem 0;*/
 			letter-spacing: .1rem;
 		}
