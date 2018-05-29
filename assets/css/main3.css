@@ -1775,8 +1775,8 @@ h1{
 			}
             
             #myBtn {
-width: 3em;
-height: 3em;
+width: 2em;
+height: 2em;
 margin-bottom: -1.8em;
 margin-right: -1.1em;
 border-radius: 10% 10% 50% 10%;
@@ -3493,12 +3493,12 @@ input[type=submit] {
 			color: #FFF;
 		}
 
-			#header > a[href="leonardoburgatte.com/index3"] {
+			#header > a[href="https://leonardoburgatte.com/index3"] {
 				text-decoration: none;
 				-webkit-tap-highlight-color: transparent;
 			}
 
-				#header > a[href="leonardoburgatte.com/index3"]:before {
+				#header > a[href="https://leonardoburgatte.com/index3"]:before {
 					content: "\f060";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
@@ -3508,11 +3508,11 @@ input[type=submit] {
 					text-transform: none !important;
 				}
 
-				#header > a[href="leonardoburgatte.com/index3"]:before {
+				#header > a[href="https://leonardoburgatte.com/index3"]:before {
 					margin: 0 0.5em 0 0;
 				}
 
-			#header > a + a[href="leonardoburgatte.com/index3"]:last-child {
+			#header > a + a[href="https://leonardoburgatte.com/index3"]:last-child {
 				border-left: solid 1px rgba(0, 0, 0, 0.15);
 				padding-left: 1.25em;
 				margin-left: 0.5em;
@@ -3531,7 +3531,7 @@ input[type=submit] {
 					padding: 0 0.5em;
 				}
 
-					#header > a + a[href="leonardoburgatte.com/index3"]:last-child {
+					#header > a + a[href="https://leonardoburgatte.com/index3"]:last-child {
 						padding-left: 1em;
 						margin-left: 0.25em;
 					}
