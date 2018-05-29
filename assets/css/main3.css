@@ -3520,7 +3520,7 @@ input[type=submit] {
 
 			#header > a:last-child {
 				padding-right: 1.25em;
-                font-size: 1.2em;
+/*                font-size: 1.2em;*/
 			}
 
 			@media screen and (max-width: 736px) {
