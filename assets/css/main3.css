@@ -1441,12 +1441,6 @@ h3{
 		font-size: 0.9rem;
 	}
 
-	h6 {
-		font-size: 7rem;
-        color: white;
-        font-family: 'Squada One', cursive;
-        text-transform: uppercase;
-	}
 
 	sub {
 		font-size: 0.8rem;
@@ -3053,6 +3047,8 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
+            
+            
             #info{
     display: block;
     padding: 1em;
@@ -3127,6 +3123,8 @@ input[type=submit] {
 		}
 
 		@media screen and (max-width: 736px) {
+            
+            
 
 			.wrapper {
 				padding: 2rem 0 1rem 0 ;
@@ -3597,7 +3595,19 @@ input[type=submit] {
 
 	}
 
+
+@media screen and (min-width: 481px){
+	h6 {
+		font-size: 7rem;
+        color: white;
+        font-family: 'Squada One', cursive;
+        text-transform: uppercase;
+	}
+}
+
 	@media screen and (min-width: 481px) and (max-width: 599px) {
+        
+        
         
         p.special{
             font-size: 2em;
@@ -4087,6 +4097,13 @@ input[type=submit] {
 		}
 
     	@media screen and (max-width: 480px) {
+            
+            	h6 {
+		font-size: 3.5rem;
+        color: white;
+        font-family: 'Squada One', cursive;
+        text-transform: uppercase;
+	}
 
 		#footer .copyright {
 				font-size: 0.7rem;
