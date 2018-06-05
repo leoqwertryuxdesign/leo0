@@ -3054,6 +3054,7 @@ input[type=submit] {
     padding: 1em;
          width: 50%;
   margin: 0 auto;
+                background-color: #ebebeb;
 }
             
         		#header > .logo {
@@ -3388,6 +3389,7 @@ input[type=submit] {
 @media screen and (max-width: 600px) {
     
     #info{
+        background-color: #ebebeb;
     padding: 1em;
         font-size: 1em;
 }
