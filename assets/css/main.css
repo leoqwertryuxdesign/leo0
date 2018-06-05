@@ -2550,7 +2550,7 @@ input[type=submit] {
             background-repeat: no-repeat;
 */
             background-color: #f2f2f2;
-			color: #a6a6a6;
+			color: #484848;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -2704,7 +2704,7 @@ input[type=submit] {
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: #a6a6a6;
+				color: #484848;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
@@ -2751,7 +2751,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style2 header p {
-				color: #848484;
+				color: #484848;
 			}
 
 			.wrapper.style2 table tbody tr {
