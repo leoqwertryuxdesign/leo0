@@ -1419,12 +1419,6 @@ h3{
 	}
 */
 
-#info{
-    display: block;
-    padding: 1em;
-         width: 50%;
-  margin: 0 auto;
-}
 
 		h1 a, h3 a, h4 a, h6 a {
 			color: inherit;
@@ -1432,7 +1426,7 @@ h3{
 		}
 
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1rem;
         color: #484848;
         
 	}
@@ -3059,6 +3053,13 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
+            #info{
+    display: block;
+    padding: 1em;
+         width: 50%;
+  margin: 0 auto;
+}
+            
         		#header > .logo {
             transition: transform .5s
 		}
@@ -3102,6 +3103,10 @@ input[type=submit] {
 }
 
 	@media screen and (min-width: 600px) and (max-width: 5000px) {
+        
+        h2 {
+    font-size: 1.1rem;
+        }
             
             
         p.special{
@@ -3383,6 +3388,11 @@ input[type=submit] {
 		}
 
 @media screen and (max-width: 600px) {
+    
+    #info{
+    padding: 1em;
+        font-size: 1em;
+}
     	.gallery .image.fit {
                 width: 100%;
                 display: block;
