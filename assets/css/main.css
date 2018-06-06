@@ -1868,6 +1868,25 @@ border-radius: 10% 10% 50% 10%;
 				background-color: #bc2032;
 			}
 
+u{
+    font-size: 1.5em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    color: #e5e5e5;
+    font-size: 1.5em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 /* Form */
 
 /* Style inputs, select elements and textareas */
