@@ -573,6 +573,14 @@ The following information is about the design process of this transportation sys
 
                 
    $(document).ready(function(){ 
+       
+           $(window).load(function() {
+	$("#loading").delay(2000).fadeOut(500);
+	$("#loading-center").click(function() {
+	$("#loading").fadeOut(500);
+	})
+     $("html, body").delay(2000).animate({scrollTop: 0}, 1);
+})
     
                 
     $('a[href^="#"]').on('click',function (e) {
