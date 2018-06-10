@@ -3048,11 +3048,6 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
-            .invision{
-    visibility: hidden;
-    display: none;
-}
-            
             
             
             #info{
@@ -3130,6 +3125,11 @@ input[type=submit] {
 		}
 
 		@media screen and (max-width: 736px) {
+            
+            .invision{
+    visibility: hidden;
+    display: none;
+}
             
             
 
