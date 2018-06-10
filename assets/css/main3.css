@@ -4115,6 +4115,7 @@ input[type=submit] {
 	}
 
 .invision{
+    transform: scale(0.8, 0.8);
     text-align: center;
        display: block;
     margin-left: auto;
