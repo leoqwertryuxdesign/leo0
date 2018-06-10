@@ -2790,10 +2790,6 @@ input[type=submit] {
                 font-family: 'Poppins';
 			}
 
-            .wrapper.style3 a:hover{
-                text-decoration: underline;
-			}
-
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #484848;
                 font-weight: 600;
