@@ -3126,11 +3126,6 @@ input[type=submit] {
 
 		@media screen and (max-width: 736px) {
             
-            .invision{
-    visibility: hidden;
-    display: none;
-}
-            
             
 
 			.wrapper {
@@ -4118,11 +4113,3 @@ input[type=submit] {
 			}
 
 	}
-
-.invision{
-    transform: scale(0.8, 0.8);
-    text-align: center;
-       display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
