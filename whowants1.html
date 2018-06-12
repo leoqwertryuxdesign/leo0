@@ -1,0 +1,610 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<title>Who Wants 1 - Leonardo Burgatte Design</title>
+		<meta charset="UTF-8">
+        <meta name="description" content="Leonardo Burgatte Design Portfolio - Who Wants 1 is a mobile application that allows you to order a variety of services provided by your community at a few taps of your phone">
+        <meta name="keywords" content="Leonardo Burgatte, Who Wants 1, Who Wants One, App Design, Volunteer app, Detroit, detroiteer, UX Design, UX Designer, Freelance Design, Freelance Designer, Freelancer Designer, UI Design, UI Designer, Designer in Toronto, Design Toronto, Toronto Design, Leonardo Burgatte Design, UX Designer Toronto, UX Design Toronto, UI Design Toronto, UI Designer Toronto, Game Design, Game Designer, Game Designer Toronto, Game Design Toronto, Designer in Canada, Design Canada, Canada Design"/>
+        <meta name="copyright" content="Leonardo Burgatte Design">
+        <meta name="language" content="en">
+        <meta name="robots" content="index,follow" />
+        <meta name='abstract' content='Leonardo Burgatte Design Portfolio'>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google" content="notranslate">
+        <meta name="theme-color" content="#111216" />
+        <meta name="msapplication-square70x70logo" content="small.jpg"/>
+        <meta name="msapplication-square150x150logo" content="medium.jpg"/>
+        <meta name="msapplication-wide310x150logo" content="wide.jpg"/>
+        <meta name="msapplication-square310x310logo" content="large.jpg"/>
+        <meta name="msapplication-TileColor" content="#111216"/>
+		<link rel="stylesheet" href="assets/css/main2.css" />
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+        <link rel="apple-touch-icon" href="/custom_icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50180045-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50180045-2');
+</script>
+        
+	</head>
+
+<style>
+#loading{
+	background-color: #111216;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10003;
+	margin-top: 0px;
+	top: 0px;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: -50px;	
+}
+.object{
+	width: 0.75em;
+	height: 0.75em;
+	background-color: rgba(255,255,255,0);
+	margin-right: auto;
+	margin-left: auto;
+	border: 1.5px solid #bc2032;
+	left: 37px;
+	top: 37px;
+	position: absolute;
+}
+
+#first_object{
+     transform: rotate(-20deg);
+	-webkit-animation: first_object 1s infinite;
+	animation: first_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}
+#second_object{
+     transform: rotate(-20deg);
+	-webkit-animation: second_object 1s infinite;
+	animation: second_object 1s infinite;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}	
+#third_object{
+     transform: rotate(-20deg);
+	-webkit-animation: third_object 1s infinite;
+	animation: third_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}	
+#forth_object{
+     transform: rotate(-20deg);
+	-webkit-animation: forth_object 1s infinite;
+	animation: forth_object 1s infinite;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}
+	
+@-webkit-keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	 
+}		
+@keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+	
+@-webkit-keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}		
+@keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+</style>
+
+<body>
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+<div class="object" id="forth_object"></div>
+</div>
+</div>
+ 
+</div>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="https://www.leonardoburgatte.com">
+  <img src="images/logo.svg" alt="Leonardo Burgatte Design">
+</a></div>
+                
+                <span id="text"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:hi@leonardoburgatte.com">&nbsp;hi@leonardoburgatte.com &nbsp;&nbsp;</a></span><span id="text"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<a href="tel:647-544-6134">647.544.6134&nbsp;</a></span>
+				<a href ="https://leonardoburgatte.com"></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+			</nav>
+
+		<!-- Banner -->
+            <h1>Detroiteer</h1>
+
+			<section class="banner full">
+				<article>
+					<img src="images/whowants1cover.jpg" alt="Who Wants 1 Cover" />
+                    <div class="inner">
+						<header>							
+							<h6>Who Wants 1</h6>
+						</header>
+					</div>
+				</article>
+			</section>
+      
+		
+		<!-- Three -->
+        <div id="About" class="section">
+
+			<section id="three" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center2">
+                        
+                                        
+                        
+                        <h3>Volunteering: The force of citizens helping the city of Detroit to improve and become a safer place<br></h3>
+<!--								<blockquote>A User Experience and Interface Designer. </blockquote>-->
+                        
+                        
+                        <div id="info"><h2><b>Client:</b> George Brown College<br><b>Role:</b> App Design, UX/UI, Design Strategy & Branding<br><b>Tools Used:</b> InVision, Photoshop, Illustrator & After Effects<br><b>Duration:</b> 4 months</h2></div>
+                <br><br>
+
+                         <p class="special"><span style="color: #009688">O</span>VERVIEW</p>
+                        						<h4><br>
+Detroiteer is a mobile application for <b>volunteers</b> in Detroit. The app allows people to <b>find and participate</b> in a diverse range of activities with the objective of <b>revitalizing</b> their city.<br><br>After completing each task, users are rewarded with <b>Detroit Coins</b>: a <b>cryptocurrency</b> controlled and generated by the city council. Volunteers are able to use their earned coins in participant stores and buy products that suit their needs.<br><br>Detroiteer is aimed for unemployed & low-income citizens or anyone that wants to transform Detroit into a <b>cleaner and safer</b> environment.<br></h4><br>
+                        
+                        <div>
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274264945?color=009688&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                        </div>
+                        
+                        <br><br>
+                         <h3>The result of volunteer work rewards people with virtual money made possible through cryptocurrency</h3>
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteer1.jpg" alt="Detroiteer Intro" />
+                                
+                                <blockquote>Detroiteer App</blockquote>
+							</div>
+						</div>
+					</div>
+                        
+						<h4>
+
+
+
+The following information is about the design process of the Detroiteer app and its cryptocurrency, including each step from concept to the final design and challenges that were faced during the development. <br><br></h4>
+                        <br>
+                        <p class="special"><span style="color: #009688">R</span>ESEARCH</p>
+                        
+                        <h4><br>This project was developed with the objective of proposing a tool to improve the life quality of the citizens in Detroit. For the initial phase, a research was conducted to find the key problem faced by the city and analyze the possibilities we have based on their current situation.<br><br><b>The research revealed a large number of problems:</b><br><br>- Poverty rates<br>- High occurrence of crime<br>- Poor infrastructure<br>- Population decline<br>- Abandoned buildings</h4>
+                        
+                           <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteerchart.jpg" alt="Detroiteer Data" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>All the information we gathered served as the main channel of inspiration for our proposed solutions. The following step was to summarize what we learned into personas and generate a visualization of a typical citizen of Detroit.<br><br><br></h4>
+                        
+                             <h3>The Problem: Violence, poverty, population decline and a lack of infrastructure across the city<br></h3>
+                            
+                        
+                         <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/DetroiteerPersona1.jpg" alt="Persona 1" /><br>
+                                <img src="images/DetroiteerPersona2.jpg" alt="Persona 2" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+
+                        <br>
+                        <p class="special"><span style="color: #009688">C</span>ONCEPT & <span style="color: #009688">D</span>ESIGN</p>
+                        <h4><br>After analyzing what we learned from the research, we began a brainstorming phase to generate concepts that could be applied in the city.<br><br>The initial sketches of the selected project were created: a mobile application that allows citizens to help their community through volunteer work.</h4>
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteersketch.jpg" alt="Detroiteer Sketches" />
+                                 <blockquote>Initial sketches of Detroiteer</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                         <h4><br>The next step was the creation of high-fidelity wireframes. Iterations were made in order to achieve an efficient interface design and guarantee satisfaction by our users. The UI follows Google's Material Design standards.</h4>
+                        
+                          <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteerwireframe.jpg" alt="Detroiteer Wireframe" />                           
+                                                            
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>It was time to select a name and the decision was made after a combination of the words Detroit + Volunteer: <b>Detroiteer</b>.</h4>
+                        
+                        <h4><br>We began to create the visual identity and all the necessary assets of Detroiteer, including the implementation of the cryptocurrency system. The goal was to have an interactive prototype that people can test it and understand the functionalities of the application.<br><br></h4>
+                        
+                        
+                        <h4>The <b>logo, colour palette & typography</b> were defined in order to have a consistent brand:</h4>
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteerstyle.svg" alt="Style Guide" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>With the definition of Detroiteer's branding, I designed mockups for all screens of the mobile application, following the project's style guide and the Material Design elements (used for icons & buttons).</h4>
+                        
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/detroiteermockups.jpg" alt="Detroiteer Mockups" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>In order to have a cryptocurrency for this project, Ethereum Wallet was used to generate a token and simulate the process of mining Detroit Coins.</h4>
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/coin.png" alt="Detroit Coin" />
+                                <blockquote>Detroit Coin</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        
+                         <p class="special"><span style="color: #009688">R</span>ESULT</p>
+                        <h4><br>The mockups were approved and finalized, the specifications of the cryptocurrency coin were defined and the next step was to build a prototype for the application using InVision. In addition, the instructions for using Detroiteer were clear:<br><br><b>- Create an account and log in<br><br>- Search for volunteer opportunities around your location<br><br>- Apply for an activity<br><br>- Attend the event and contribute to the revitalization of Detroit<br><br>- Get rewarded with Detroit Coins<br><br>- Use coins at selected stores and services</b><br></h4>
+                            
+                            <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+                                <a href="https://invis.io/T8KLFNBW7D4" target="_blank">
+                                    <img border="0" alt="Detroiteer prototype" src="images/invision.jpg"></a>
+     
+								
+                                <blockquote>Detroiteer prototype</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                            
+                             <a href="https://invis.io/T8KLFNBW7D4" target="_blank"><span style="color: #009688; font-weight: bold; text-align: center; display: block">> Click here to view the interactive prototype of Detroiteer</span></a>
+                           
+                        <br>
+                        
+                        <h4>Detroit is currently facing a large number of problems that have to be minimized in order to guarantee a better quality of life for its citizens. Unfortunately, ending the situation of this city requires many years. This application aims to assist individuals that are struggling financially and to revitalize the parks, streets, neighbourhoods & abandoned areas that lack minimum care.</h4>
+                        <br>  
+                        
+                        <h4><b>- Final considerations:</b><br>Overall I had a great time during the development of Detroiteer. There were some challenges with the cryptocurrency implementation but Ethereum Wallet proportionated us with a visualization of the coins. This project met my expectations and it became a concept that I would like to continue working on and develop the system.</h4>
+                        <br>
+                       
+					</header>
+				</div>
+                <p class="special2"><span style="color: #009688">YOU</span> MAY ALSO LIKE</p>
+                
+                <div class="inner">
+                    <header class="align-center">
+                       
+					<div class="grid-style">
+
+			              <div>
+							<div class="box">
+								<div class="image fit"><a href="index.html">
+                              <img src="images/pic04b.jpg" alt="FestivAR">
+                            </a></div>
+								<div class="content"><a href="index.html">
+									<header class="align-center">
+                                        <h2><span style="font-family: Squada One">FestivAR</span></h2>																				
+									</header>
+<!--									<p>AR app for festivals &nbsp;<span class="heavy">Read More</span></p>-->
+								</a></div>
+							</div>
+						</div>
+
+					
+                        
+<div>
+							<div class="box">
+								<div class="image fit"><a href="index.html">
+                              <img src="images/pic07.jpg" alt="Logo">
+                            </a></div>
+								<div class="content"><a href="index.html">
+									<header class="align-center">
+                                        <h2><span style="font-family: Squada One">Empire Of Shadows</span></h2>																			
+									</header>
+<!--									<p>Comic book design &nbsp;<span class="heavy">Read More</span></p>-->
+								</a></div>
+							</div>
+						</div>
+                        
+                        
+                        </div>
+                    
+                    </header></div>
+                
+            </section></div>
+            
+                
+             <div id="Contact" class="section">
+                 
+
+                                      <button id="myBtn"><i class="fa fa-angle-up" aria-hidden="true"></i></button></div>
+                
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+                    <div class="contacts2">
+                        <span id="text2">OTHER MEDIA&nbsp;</span></div>
+					<ul class="icons">
+<!--						<li><a href="#" class="icon fa-behance" target="_blank"><span class="label">Behance</span></a></li>-->
+						<li><a href="https://linkedin.com/in/leolbdesign/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://vimeo.com/leolbdesign" class="icon fa-vimeo" target="_blank"><span class="label">Vimeo</span></a></li>
+						<li><a href="https://www.pinterest.ca/leolbdesign/" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+                        <li><a href="https://www.instagram.com/leolbdesign/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; 2018 <b>Leonardo Burgatte Design</b>. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            
+            <script>
+                
+
+                
+   $(document).ready(function(){ 
+       
+           $(window).load(function() {
+	$("#loading").delay(2000).fadeOut(500);
+	$("#loading-center").click(function() {
+	$("#loading").fadeOut(500);
+	})
+     $("html, body").delay(2000).animate({scrollTop: 0}, 1);
+})
+    
+                
+    $('a[href^="#"]').on('click',function (e) {
+        
+        e.preventDefault();
+
+        var target = this.hash;
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+       history.pushState("", document.title, window.location.pathname);
+       
+
+});             
+                
+           
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("myBtn").style.display = "block"; 
+    
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+$("#myBtn").click(function () {
+   $("html, body").animate({scrollTop: 0}, 1000);
+});
+            
+</script>        
+
+
+	</body>
+</html>
