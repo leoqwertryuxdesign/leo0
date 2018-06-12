@@ -28,11 +28,227 @@
         <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
         
 	</head>
-<!--
+<style>
+#loading{
+	background-color: #111216;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10003;
+	margin-top: 0px;
+	top: 0px;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: -50px;	
+}
+.object{
+	width: 0.75em;
+	height: 0.75em;
+	background-color: rgba(255,255,255,0);
+	margin-right: auto;
+	margin-left: auto;
+	border: 1.5px solid #bc2032;
+	left: 37px;
+	top: 37px;
+	position: absolute;
+}
 
--->
+#first_object{
+     transform: rotate(-20deg);
+	-webkit-animation: first_object 1s infinite;
+	animation: first_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}
+#second_object{
+     transform: rotate(-20deg);
+	-webkit-animation: second_object 1s infinite;
+	animation: second_object 1s infinite;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}	
+#third_object{
+     transform: rotate(-20deg);
+	-webkit-animation: third_object 1s infinite;
+	animation: third_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}	
+#forth_object{
+     transform: rotate(-20deg);
+	-webkit-animation: forth_object 1s infinite;
+	animation: forth_object 1s infinite;
+    border-color: #111216 #111216 #bc2032 #bc2032;
+}
+	
+@-webkit-keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	 
+}		
+@keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+	
+@-webkit-keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}		
+@keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+</style>
 
 <body>
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+<div class="object" id="forth_object"></div>
+</div>
+</div>
+ 
+</div>
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="logo"><a href="https://www.leonardoburgatte.com">
@@ -88,142 +304,8 @@
 			<section id="one" class="wrapper style2">
 <div class="inner">
     
-					<header class="align-center">
-                        <p class="special">MY <span style="color: #cc112c">W</span>ORK</p></header></div>
-                
-				<div class="inner">
-                    <header class="align-center">
-                       
-					<div class="grid-style">
-
-						<div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic08.jpg" alt="Cubus">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Cubus</h2>
-										<p>UX, Concept Design, Motion Graphics, 3D Modeling</p>
-										
-									</header>
-<!--									<p>Modular and autonomous transportation system &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-
 					
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic04b.jpg" alt="FestivAR">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>FestivAR</h2>
-										<p>Concept Design, UX, App Design, Augmented Reality</p>										
-									</header>
-<!--									<p>AR app for festivals &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic05.jpg" alt="Detroiteer">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Detroiteer</h2>
-										<p>App Design, UX/UI Design</p>										
-									</header>
-<!--									<p>Volunteering app for Detroit citizens &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic07.jpg" alt="Logo">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Empire Of Shadows</h2>
-										<p>Graphic Design, Illustration, UX</p>										
-									</header>
-<!--									<p>Comic book design &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic09.jpg" alt="Logo">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>The Puzzle Guardian</h2>
-										<p>Game & Level Design, Art</p>										
-									</header>
-<!--									<p>An adventure game &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic10.jpg" alt="Logo">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Who Wants One</h2>
-										<p>Concept Design, UX/UI Design</p>										
-									</header>
-<!--									<p>A modular and autonomous. &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic11.jpg" alt="Logo">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Hoverbot</h2>
-										<p>Coding, Game & Level Design, Art</p>										
-									</header>
-<!--									<p>A modular and autonomous &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
-                        
-                        <div>
-							<div class="box">
-								<div class="image fit"><a href="index.html">
-                              <img src="images/pic12.jpg" alt="Logo">
-                            </a></div>
-								<div class="content"><a href="index.html">
-									<header class="align-center">
-                                        <h2>Remini Smartwatch</h2>
-										<p>Concept Design, Product, UX & UI Design</p>										
-									</header>
-<!--									<p>A modular and autonomous &nbsp;<span class="heavy">Read More</span></p>-->
-								</a></div>
-							</div>
-						</div>
 
-					</div>
-                    </header>
-                </div>
-                </section>
-        </div>
 
 		<!-- Three -->
         <div id="About" class="section">
