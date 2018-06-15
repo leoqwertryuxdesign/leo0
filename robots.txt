@@ -5,5 +5,7 @@ User-agent: *
 
 Disallow: /hoverbot
 Disallow: /detroiteer
+Disallow: /puzzleguardian
+Disallow: /festivar
 
 Sitemap: http://www.leonardoburgatte.com/sitemap.xml
