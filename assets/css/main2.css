@@ -71,16 +71,12 @@ opacity: 0.7;
 }
 
 #text{
-    color: gray;
+    color: #bc2032;
     padding-bottom: 1em;
     font-size: 1.2em;
     text-align: center;
     font-family: 'Squada One', cursive;
     font-weight: lighter;
-}
-
-#text:hover{
-    color: #bc2032;
 }
 
 #text2{
@@ -3082,7 +3078,7 @@ input[type=submit] {
 	}
             
                 h4{
-		font-weight: 500;
+		font-weight: 400;
 		line-height: 2.5;
 	}
             
