@@ -1,0 +1,1621 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+/*--------------------------------------------------*/
+/*BACKGROUND*/
+/*--------------------------------------------------*/
+
+
+body{
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.bg{
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: -7;
+  cursor: crosshair;
+}
+
+
+/*--------------------------------------------------*/
+/*GAME MENU*/
+/*--------------------------------------------------*/
+
+
+.mainmenu {
+  background-image: url('../img/menugif.gif');
+  display: none;
+  opacity: 0.8;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 1;
+  box-shadow: 0 0 60px #9ecaed;
+  cursor: crosshair;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.logo {
+  color: white;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 8.5em;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 100px white;
+}
+
+.playbtn{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playbtn:hover{
+  font-size: 4.2em;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.playbtn:focus{
+  outline: 0;
+}
+
+
+/*--------------------------------------------------*/
+/*ADJUSTMENT SCREEN (ZOOM)*/
+/*--------------------------------------------------*/
+
+
+.adj {
+  opacity: 0.8;
+  display: none;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 0;
+  cursor: url('../img/cur.png') 12 12, auto;
+  box-shadow: 0 0 60px #9ecaed;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.adjbox {
+  display: block;
+  background-color: transparent;
+  border-width: 1.5px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 2px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: url('../img/cur.png') 12 12, auto;
+}
+
+.adjtext {
+  width: 800px;
+  line-height: 50px;
+  float: left;
+  position: relative;
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  text-emphasis-style;
+  cursor: url('../img/cur.png') 12 12, auto;
+}
+
+.confirmbtn{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.confirmbtn:hover{
+  text-shadow: 0 0 20px #9ecaed;
+  font-size: 1.6em;
+}
+
+.confirmbtn:focus{
+  outline: 0;
+}
+
+
+/*--------------------------------------------------*/
+/*SELECT CHARACTER*/
+/*--------------------------------------------------*/
+
+
+.select {
+  opacity: 0.8;
+  display: none;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 0;
+  cursor: url('../img/cur.png') 12 12, auto;
+  box-shadow: 0 0 60px #9ecaed;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.chars {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+}
+
+.char1 {
+  display: block;
+  background-image: url('../img/char1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 1.5px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 2px;
+  position: relative;
+  float: left;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  margin: auto;
+  left: 30%;
+}
+
+.char1:hover {
+  background-color: white;
+  box-shadow: 0 0 60px #9ecaed;
+  cursor: crosshair;
+}
+
+.char2 {
+  display: block;
+  background-image: url('../img/char2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-width: 1.5px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 2px;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  margin: auto;
+  float: left;
+  left: 30%;
+}
+
+.char2:hover {
+  background-color: white;
+  box-shadow: 0 0 60px #9ecaed;
+  cursor: crosshair;
+}
+
+.char3 {
+  display: block;
+  background-image: url('../img/char3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-width: 1.5px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 2px;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  margin: auto;
+  float: left;
+  left: 30%;
+}
+
+.char3:hover {
+  background-color: white;
+  box-shadow: 0 0 60px #9ecaed;
+  cursor: crosshair;
+}
+
+
+/*--------------------------------------------------*/
+/*OBJECTIVE/TUTORIAL (STARTS TIMER)*/
+/*--------------------------------------------------*/
+
+
+.objfirst {
+  display: none;
+  background-color: rgba(19,43,43,0.7);
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(40,87,102);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 800px;
+  height: 900px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -1;
+  cursor: crosshair;
+  box-shadow: 0 0 40px rgba(19,43,43,0.8);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.closebtnfirst{
+  width: 40px;
+  height: 40px;
+  color: white;
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  text-align: center;
+  line-height: 30px;
+  padding: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  opacity: 0.8;
+}
+
+.closebtnfirst:hover{
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #9ecaed;
+  cursor: crosshair;
+}
+
+
+/*--------------------------------------------------*/
+/*OBJECTIVE/TUTORIAL (GENERAL)*/
+/*--------------------------------------------------*/
+
+
+.objtext{
+  font-size: 3em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  top: 5.5%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.btns{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#back{
+  opacity: 0.2;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: gray;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+}
+
+#next{
+  opacity: 1;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+}
+
+#back:focus{
+  outline: 0;
+}
+
+#next:focus{
+  outline: 0;
+}
+
+.tut{
+  color: white;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 700px;
+  height: 650px;
+  transform: translate(-50%, -50%);
+}
+
+.tutb{
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 700px;
+  height: 650px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tutportal{
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.tutitems{
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.tutpoint{
+  position: absolute;
+  top: 38%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+}
+
+.tutexit{
+  position: absolute;
+  top: 38%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+}
+
+.tutobstacles{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.tutavoid{
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  width: 600px;
+  text-align: center;
+}
+
+.tutorba{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+}
+
+.tutorbb{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+}
+
+.tuttime{
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  width: 200px;
+}
+
+.tutobj{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  width: 600px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#tut1{
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+#tut2{
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+#tut3{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+
+#tut4{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  transform: translate(-50%, -50%);
+}
+
+#tut5{
+  position: absolute;
+  top: 21%;
+  left: 80%;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+
+#tut6{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 500px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+
+/*--------------------------------------------------*/
+/*GAME AREA*/
+/*--------------------------------------------------*/
+
+
+.game{
+  display: none;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -4;
+  cursor: url('../img/char1.png') 16 16, auto;
+  box-shadow: 0 0 60px #28725d;
+}
+
+
+/*--------------------------------------------------*/
+/*LEVEL 1
+/*--------------------------------------------------*/
+
+
+.level1 {
+  display: none;
+}
+
+.hove1{
+}
+
+.point1{
+  bottom: 5%;
+  right: 45%;
+}
+
+.a1{
+  width: 400px;
+  height: 60px;
+  top: 75%;
+}
+
+.b1{
+  width: 400px;
+  height: 60px;
+  top: 55%;
+
+}
+
+.c1{
+  width: 400px;
+  height: 60px;
+  top: 35%;
+}
+
+.d1{
+  width: 400px;
+  height: 60px;
+  top: 15%;
+}
+
+.timea2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 38%;
+  top: 6%;
+  z-index: -5;
+  filter: drop-shadow(0 0 10px white);
+}
+
+.orb{
+  background-color: #35ff6e;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -6;
+  box-shadow: 0 0 20px #35ff6e;
+}
+
+.orba1{
+  top: 8%;
+  left: 50%;
+}
+
+.orba2{
+  top: 28%;
+  left: 50%;
+}
+
+.orba3{
+  top: 48%;
+  left: 50%;
+}
+
+.orba4{
+  top: 68%;
+  left: 50%;
+}
+
+.orba5{
+  top: 68%;
+  left: 20%;
+}
+
+.orba6{
+  top: 68%;
+  left: 80%;
+}
+
+.exit1{
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+}
+
+
+/*--------------------------------------------------*/
+/*LEVEL 2
+/*--------------------------------------------------*/
+
+
+.level2 {
+  display: none;
+}
+
+.hove2{
+}
+
+.point2{
+  top: 7.5%;
+  left: 25%;
+}
+
+.a2{
+  width: 400px;
+  height: 60px;
+  top: 30%;
+  left: 0.5%;
+}
+
+.b2{
+  width: 400px;
+  height: 60px;
+  top: 34%;
+  right: 0.5%;
+}
+
+.c2{
+  width: 400px;
+  height: 60px;
+  top: 44%;
+  right: 0.5%;
+}
+
+.d2{
+  width: 60px;
+  height: 400px;
+  top: 0.5%;
+  right: 47%;
+}
+
+.e2{
+  width: 300px;
+  height: 60px;
+  top: 70%;
+  right: 0.5%;
+}
+
+.f2{
+  width: 60px;
+  height: 280px;
+  top: 72%;
+  right: 27%;
+}
+
+.cable1{
+  z-index: -6;
+  position: absolute;
+  width: 15px;
+  height: 310px;
+  background-color: black;
+  right: 7%;
+  bottom: 28%;
+}
+
+.spinnera2{
+  top: 67%;
+  left: 5%;
+  width: 600px;
+  height: auto;
+  box-shadow: none;
+  position: absolute;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.panel{
+  position: absolute;
+  z-index: -5;
+}
+
+.panel1{
+  width: 90px;
+  height: 90px;
+  top: 37.6%;
+  left: 88%;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px green);
+}
+
+.panel2{
+  display: none;
+  width: 90px;
+  height: 90px;
+  top: 37.6%;
+  left: 88%;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.orbb1{
+  top: 22%;
+  left: 65%;
+}
+
+.orbb2{
+  top: 22%;
+  left: 75%;
+}
+
+.orbb3{
+  top: 22%;
+  left: 85%;
+}
+
+.bigorb{
+  background-color: #42d7f4;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 90%;
+  left: 15%;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -6;
+  box-shadow: 0 0 20px #42d7f4;
+  filter: blur(2px);
+}
+
+.exit2{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+
+/*--------------------------------------------------*/
+/*LEVEL 3
+/*--------------------------------------------------*/
+
+
+.level3 {
+  display: none;
+}
+
+.hove3{
+  }
+
+.point3{
+  top: 10%;
+  left: 10%;
+}
+
+.panel3{
+  width: 90px;
+  height: 90px;
+  top: 85%;
+  left: 60%;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px green);
+}
+
+.panel4{
+  display: none;
+  width: 90px;
+  height: 90px;
+  top: 85%;
+  left: 60%;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px green);
+}
+
+.clickme{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 85%;
+  left: 11%;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px orange);
+  z-index: -5;
+}
+
+.rotated {
+    -webkit-transform: rotate(45deg);
+}
+
+.cable2{
+  z-index: -6;
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  background-color: black;
+  right: 50%;
+  bottom: 70%;
+}
+
+.cable3{
+  z-index: -6;
+  position: absolute;
+  width: 350px;
+  height: 15px;
+  background-color: black;
+  right: 50%;
+  bottom: 80%;
+}
+
+.cable4{
+  z-index: -6;
+  position: absolute;
+  width: 15px;
+  height: 700px;
+  background-color: black;
+  right: 83.5%;
+  bottom: 10%
+}
+
+.cable5{
+  z-index: -6;
+  position: absolute;
+  width: 350px;
+  height: 15px;
+  background-color: black;
+  right: 38%;
+  bottom: 10%;
+}
+
+.orbc1{
+  top: 22%;
+  left: 20%;
+  }
+
+.orbc2{
+  top: 22%;
+  left: 40%;
+}
+
+.orbc3{
+  top: 22%;
+  left: 60%;
+}
+
+.orbc4{
+  top: 22%;
+  left: 80%;
+}
+
+.orbc5{
+  bottom: 22%;
+  left: 20%;
+}
+
+.orbc6{
+  bottom: 22%;
+  left: 40%;
+}
+
+.orbc7{
+  bottom: 22%;
+  left: 60%;
+}
+
+.orbc8{
+  bottom: 22%;
+  left: 80%;
+}
+
+.a3{
+  width: 400px;
+  height: 60px;
+  top: 63%;
+  left: 30%;
+}
+
+.b3{
+  width: 400px;
+  height: 60px;
+  top: 27%;
+  right: 30%;
+}
+
+.c3{
+  width: 60px;
+  height: 400px;
+  top: 28%;
+  right: 29%;
+}
+
+.d3{
+  width: 60px;
+  height: 400px;
+  top: 28%;
+  right: 65%;
+}
+
+.e3{
+  height: 60px;
+  top: 70%;
+  right: 72%;
+  width: 280px;
+}
+
+.f3{
+  width: 60px;
+  height: 280px;
+  top: 72%;
+  right: 70%;
+}
+
+.exit3{
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+}
+
+
+/*--------------------------------------------------*/
+/*LEVEL 4
+/*--------------------------------------------------*/
+
+
+.level4 {
+  display: none;
+}
+
+.hove4{
+  }
+
+.point4{
+  top: 10%;
+  left: 10%;
+}
+
+.spinnera4{
+  top: 67%;
+  width: 400px;
+  height: auto;
+  box-shadow: none;
+  position: absolute;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.spinnera5{
+  top: 27%;
+  left: 5%;
+  width: 400px;
+  height: auto;
+  box-shadow: none;
+  position: absolute;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.spinnera6{
+  top: 37%;
+  left: 55%;
+  width: 400px;
+  height: auto;
+  box-shadow: none;
+  position: absolute;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.spinnera7{
+  top: 77%;
+  left: 60%;
+  width: 400px;
+  height: auto;
+  box-shadow: none;
+  position: absolute;
+  filter: drop-shadow(0 0 30px red);
+}
+
+.borbd1{
+  top: 22%;
+  left: 30%;
+  }
+
+.borbd2{
+  top: 22%;
+  left: 20%;
+}
+
+.borbd3{
+  top: 54%;
+  left: 10%;
+}
+
+.borbd4{
+  top: 42%;
+  left: 80%;
+}
+
+.borbd5{
+  bottom: 68%;
+  left: 70%;
+}
+
+.borbd6{
+  bottom: 52%;
+  left: 40%;
+}
+
+.borbd7{
+  bottom: 60%;
+  left: 60%;
+}
+
+.borbd8{
+  bottom: 12%;
+  left: 30%;
+}
+
+
+.exit4{
+bottom: 2%;
+left: 92%;
+}
+
+
+/*--------------------------------------------------*/
+/*DARK SCREEN (PREVENT HOVER OBJECTS WHEN NOT IN GAME)
+/*--------------------------------------------------*/
+
+
+.hover{
+  background-color: transparent;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  z-index: -3;
+}
+
+.hove{
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  z-index: -4;
+}
+
+
+/*--------------------------------------------------*/
+/*STARTPOINT
+/*--------------------------------------------------*/
+
+
+.startpoint{
+  background-color: black;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: url('../img/cur.png') 12 12, auto;
+  z-index: -4;
+  box-shadow: 0 0 60px cyan;
+}
+
+/*--------------------------------------------------*/
+/*OBSTACLES (LASERS, MOVING TARGETS)
+/*--------------------------------------------------*/
+
+
+.laser{
+  background-color: red;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 20%;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -5;
+  box-shadow: 0 0 60px orange;
+}
+
+.laserbox{
+  background-color: transparent;
+  position: absolute;
+  margin: auto;
+  z-index: -5;
+  box-shadow: none;
+  filter: drop-shadow(0 0 30px red);
+  opacity: 0.85;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+/*--------------------------------------------------*/
+/*CRASH SCREEN
+/*--------------------------------------------------*/
+
+
+.crash{
+  display: none;
+  background-color: rgba(19,43,43,0.7);
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(40,87,102);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -1;
+  cursor: crosshair;
+  box-shadow: 0 0 40px rgba(19,43,43,0.8);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.crashtext{
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+}
+
+.crashbtn{
+  width: 300px;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.crashbtn:hover{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+
+/*--------------------------------------------------*/
+/*GAMEOVER SCREEN
+/*--------------------------------------------------*/
+
+
+.gameover{
+  display: none;
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 5;
+  cursor: crosshair;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.gameovertext{
+  width: 1000px;
+  font-size: 9.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+}
+
+.finalscore{
+  width: 800px;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  font-weight: bold;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.endscore{
+  width: 800px;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  font-weight: bold;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.gameoverbtn{
+  width: 600px;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gameoverbtn:hover{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.gameoverbg{
+  display: none;
+  background-image: url('../img/gameoverbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: 4;
+  cursor: crosshair;
+}
+
+
+/*--------------------------------------------------*/
+/*GAMEOVER SCREEN
+/*--------------------------------------------------*/
+
+
+.winner{
+  display: none;
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  border-radius: 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 5;
+  cursor: crosshair;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.winnertext{
+  width: 1000px;
+  font-size: 6.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+}
+
+.finalscore{
+  width: 800px;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  font-weight: bold;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.endscore{
+  width: 800px;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  cursor: crosshair;
+  font-weight: bold;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.winnerbtn{
+  width: 600px;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.winnerbtn:hover{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: crosshair;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4em;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.winnerbg{
+  display: none;
+  background-image: url('../img/gameoverbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: 4;
+  cursor: crosshair;
+}
+
+
+/*--------------------------------------------------*/
+/*STATS AREA
+/*--------------------------------------------------*/
+
+
+.stats{
+  position: absolute;
+  cursor: crosshair;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  display: none;
+  width: 340px;
+  height: 240px;
+  z-index: 7;
+  box-shadow: 0 0 80px rgba(49,237,237,0.8);
+  border-top-left-radius: 60%;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+b{
+  font-weight: bold;
+  text-shadow: 0 0 20px #9ecaed;
+}
+
+.currentlvl{
+  color: white;
+  font-size: 2.2em;
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 38%
+}
+
+.life{
+  color: white;
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  top: 40%;
+}
+
+.timer{
+  color: white;
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  top: 50%;
+}
+
+.points{
+  color: white;
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  bottom: 10%;
+}
+
+
+/*--------------------------------------------------*/
+/*LEVEL EXIT
+/*--------------------------------------------------*/
+
+
+.exit{
+  background-color: white;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: -6;
+  box-shadow: 0 0 60px white;
+  font-family: impact;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+/*--------------------------------------------------*/
+/*OUTSIDE AREA (CRASH)
+/*--------------------------------------------------*/
+
+
+.outarea{
+  display: none;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  cursor: crosshair;
+  z-index: -6;
+}
+
+
+/*--------------------------------------------------*/
+/*END
+/*--------------------------------------------------*/

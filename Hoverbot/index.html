@@ -1,0 +1,499 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Hoverbot</title>
+  <meta name="Game description" content="A space game">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+  <link rel="stylesheet" href="css/helpers.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Orbitron" rel="stylesheet">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+
+
+<!-------------------------------------------------->
+<!-- MAIN MENU -->
+<!-------------------------------------------------->
+
+
+<div class="mainmenu">
+
+
+<!-------------------------------------------------->
+<!-- GAME LOGO -->
+<!-------------------------------------------------->
+
+
+      <p class="logo">Hoverbot</p>
+
+      <button class="playbtn">Play</button>
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- ADJUSTMENT SCREEN -->
+<!-------------------------------------------------->
+
+
+<div class="adj">
+
+      <p class="adjtext">Adjust your browser zoom until the white square is the same size as the one below and click 'Next'</p>
+
+      <div class="adjbox"></div>
+
+      <button class="confirmbtn">Next</button>
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- CHARACTER SCREEN -->
+<!-------------------------------------------------->
+
+
+<div class="select">
+
+      <p class="adjtext">Choose a character:</p>
+
+<div class="chars">
+      <div class="char1"></div>
+      <div class="char2"></div>
+      <div class="char3"></div>
+</div>
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- OBJECTIVE SCREEN -->
+<!-------------------------------------------------->
+
+
+<div class="objfirst">
+
+      <div class="closebtnfirst">X</div>
+
+      <div class="tut">
+      <p class="tutportal">Portals</p>
+      <p class="tutobstacles">Obstacles</p>
+      <p class="tutpoint">Start Point</p>
+      <p class="tutavoid">Avoid touching laser obstacles</p>
+      <p class="tutexit">Exit</p>
+
+      <img id="tut1" src="img/tutorial1.png" alt="Image error"></img>
+      <img id="tut2" src="img/tutorial2.png" alt="Image error"></img>
+      <img id="tut6" src="img/tutorial6.png" alt="Image error"></img>
+      </div>
+
+      <div class="tutb">
+      <p class="tutitems">Items</p>
+      <p class="tutorba">100pts</p>
+      <p class="tutorbb">1000pts</p>
+      <p class="tuttime">Bonus Time</p>
+      <p class="tutobj"><b>Objective:</b> Collect orbs (points) and survive each level.<br><br><br><br>Pay attention to the timer, it never stops!<br><br><br><br>Close this window and hover the start point to begin.</p>
+
+      <img id="tut3" src="img/tutorial3.png" alt="Image error"></img>
+      <img id="tut4" src="img/tutorial4.png" alt="Image error"></img>
+      <img id="tut5" src="img/tutorial5.png" alt="Image error"></img>
+      </div>
+
+      <p class="objtext">Tutorial</p>
+
+      <div class="btns">
+
+          <button id="back"><.---</button>
+          <button id="next">---.></button>
+
+      </div>
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- CRASH SCREEN -->
+<!-------------------------------------------------->
+
+
+<div class="crash">
+
+      <button class="crashbtn">Click here to Continue</button>
+
+      <p class="crashtext">Crashed!</p>
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- GAME OVER -->
+<!-------------------------------------------------->
+
+
+<div class="gameover">
+
+      <button class="gameoverbtn">Back to Main Menu</button>
+      <p class="finalscore">Your score:</p>
+      <p class="gameovertext">Game Over</p>
+
+</div>
+
+<div class="gameoverbg"></div>
+
+
+<!-------------------------------------------------->
+<!-- WINNER -->
+<!-------------------------------------------------->
+
+
+<div class="winner">
+
+      <button class="winnerbtn">Back to Main Menu</button>
+      <p class="finalscore">Your score:</p>
+      <p class="winnertext">Congratulations!</p>
+
+</div>
+
+<div class="winnerbg"></div>
+
+
+<!-------------------------------------------------->
+<!-- LEVEL 1 -->
+<!-------------------------------------------------->
+
+
+<div class="game level1">
+
+
+      <div class="hover"></div>
+
+      <div class="hove hove1">
+
+          <div class="startpoint point1"></div>
+
+      </div>
+
+<div class="obstacles">
+
+              <!-- OBSTACLES (MOVING) -->
+              <img class ="laserbox a1" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox b1" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox c1" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox d1" src="img/laser.svg" alt="Image error"></img>
+
+
+
+              <!-- OBSTACLES (STATIC) -->
+
+
+
+</div>
+
+              <!-- ORBS -->
+              <div class="orb orba1"></div>
+              <div class="orb orba2"></div>
+              <div class="orb orba3"></div>
+              <div class="orb orba4"></div>
+              <div class="orb orba5"></div>
+              <div class="orb orba6"></div>
+
+
+              <!-- EXIT PORTAL -->
+              <div class="exit exit1"></div>
+
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- LEVEL 2 -->
+<!-------------------------------------------------->
+
+
+<div class="game level2">
+
+
+      <div class="hover"></div>
+
+      <div class="hove hove2">
+
+          <div class="startpoint point2"></div>
+
+      </div>
+
+      <!-- BONUS TIME -->
+      <img class ="time timea2" src="img/time.svg" alt="Image error"></img>
+
+      <div class="obstacles">
+
+
+              <!-- OBSTACLES (STATIC) -->
+              <img class ="laserbox a2" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox b2" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox c2" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox d2" src="img/laser2.svg" alt="Image error"></img>
+              <img class ="laserbox e2" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox f2" src="img/laser2.svg" alt="Image error"></img>
+
+
+
+              <!-- OBSTACLES (MOVING) -->
+              <img class ="laserbox spinnera2" src="img/spinner1.svg" alt="Image error"></img>
+
+</div>
+            <div class= "cable cable1"></div>
+
+              <!-- PANEL / ORBS -->
+              <img class ="panel panel1" src="img/panel1.svg" alt="Image error"></img>
+              <img class ="panel panel2" src="img/panel2.svg" alt="Image error"></img>
+
+              <div class="orb orbb1"></div>
+              <div class="orb orbb2"></div>
+              <div class="orb orbb3"></div>
+
+              <div class="bigorb borba1"></div>
+
+              <!-- EXIT PORTAL -->
+              <div class="exit exit2"></div>
+
+
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- LEVEL 3 -->
+<!-------------------------------------------------->
+
+
+<div class="game level3">
+
+
+      <div class="hover"></div>
+
+      <div class="hove hove3">
+
+          <div class="startpoint point3"></div>
+
+      </div>
+
+<div class= "cable cable2"></div>
+<div class= "cable cable3"></div>
+<div class= "cable cable4"></div>
+<div class= "cable cable5"></div>
+
+
+<div class="obstacles">
+
+
+              <!-- OBSTACLES (STATIC) -->
+              <img class ="laserbox a3" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox b3" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox c3" src="img/laser2.svg" alt="Image error"></img>
+              <img class ="laserbox d3" src="img/laser2.svg" alt="Image error"></img>
+              <img class ="laserbox e3" src="img/laser.svg" alt="Image error"></img>
+              <img class ="laserbox f3" src="img/laser2.svg" alt="Image error"></img>
+
+
+
+</div>
+
+              <!-- BUTTON / PANEL / ORBS -->
+              <img class ="panel panel3" src="img/panel1.svg" alt="Image error"></img>
+              <img class ="panel panel4" src="img/panel2.svg" alt="Image error"></img>
+
+              <img class ="click clickme" src="img/clickme.svg" alt="Image error"></img>
+
+              <div class="orb orbc1"></div>
+              <div class="orb orbc2"></div>
+              <div class="orb orbc3"></div>
+              <div class="orb orbc4"></div>
+              <div class="orb orbc5"></div>
+              <div class="orb orbc6"></div>
+              <div class="orb orbc7"></div>
+              <div class="orb orbc8"></div>
+
+              <!-- BONUS TIME -->
+
+
+
+              <!-- EXIT PORTAL -->
+              <div class="exit exit3"></div>
+
+
+</div>
+
+<!-------------------------------------------------->
+<!-- LEVEL 4 -->
+<!-------------------------------------------------->
+
+
+<div class="game level4">
+
+
+      <div class="hover"></div>
+
+      <div class="hove hove4">
+
+          <div class="startpoint point4"></div>
+
+      </div>
+
+
+<div class="obstacles">
+
+
+              <!-- OBSTACLES (STATIC) -->
+              <img class ="laserbox spinnera4" src="img/spinner1.svg" alt="Image error"></img>
+              <img class ="laserbox spinnera5" src="img/spinner1.svg" alt="Image error"></img>
+              <img class ="laserbox spinnera6" src="img/spinner1.svg" alt="Image error"></img>
+              <img class ="laserbox spinnera7" src="img/spinner1.svg" alt="Image error"></img>
+
+
+
+</div>
+
+              <!-- BUTTON / PANEL / ORBS -->
+
+              <div class="bigorb borbd1"></div>
+              <div class="bigorb borbd2"></div>
+              <div class="bigorb borbd3"></div>
+              <div class="bigorb borbd4"></div>
+              <div class="bigorb borbd5"></div>
+              <div class="bigorb borbd6"></div>
+              <div class="bigorb borbd7"></div>
+              <div class="bigorb borbd8"></div>
+
+              <!-- BONUS TIME -->
+
+
+
+              <!-- EXIT PORTAL -->
+              <div class="exit exit4"></div>
+
+
+</div>
+
+<!-------------------------------------------------->
+<!-- BACKGROUND -->
+<!-------------------------------------------------->
+
+
+<div class="stats">
+
+
+      <p class="currentlvl"><b>Level&emsp;1</b></p>
+
+      <p class="timer"><b>Timer:&emsp;</b><span>0</span></p>
+      <p class="points"><b>Score:&emsp;</b><span></span></p>
+
+
+</div>
+
+<div class="bg">
+
+</div>
+
+
+<!-------------------------------------------------->
+<!-- RELOAD -->
+<!-------------------------------------------------->
+
+
+<div class="outarea"></div>
+
+
+<!-------------------------------------------------->
+<!-- MUSIC AND SFX -->
+<!-------------------------------------------------->
+
+
+<audio id="menu" autoplay loop>
+      <source src="aud/mainmenu.mp3"></source>
+</audio>
+
+<audio id="level1" loop>
+      <source src="aud/level1.mp3"></source>
+</audio>
+
+<audio id="level2" loop>
+      <source src="aud/level2.mp3"></source>
+</audio>
+
+<audio id="level3" loop>
+      <source src="aud/level3.mp3"></source>
+</audio>
+
+<audio id="hoversfx">
+      <source src="aud/hover.mp3"></source>
+      <source src="aud/hover.ogg"></source>
+</audio>
+
+<audio id="clicksfx">
+      <source src="aud/clicksfx.mp3"></source>
+      <source src="aud/clicksfx.ogg"></source>
+</audio>
+
+<audio id="pointsfx">
+      <source src="aud/point.mp3"></source>
+      <source src="aud/point.ogg"></source>
+</audio>
+
+<audio id="orbsfx">
+      <source src="aud/orb.mp3"></source>
+      <source src="aud/orb.ogg"></source>
+</audio>
+
+<audio id="panel">
+      <source src="aud/panel.mp3"></source>
+      <source src="aud/panel.ogg"></source>
+</audio>
+
+<audio id="clickme">
+      <source src="aud/clickme.mp3"></source>
+      <source src="aud/clickme.ogg"></source>
+</audio>
+
+<audio id="crashsfx">
+      <source src="aud/crash.mp3"></source>
+      <source src="aud/crash.ogg"></source>
+</audio>
+
+<audio id="portalsfx">
+      <source src="aud/portal.mp3"></source>
+      <source src="aud/portal.ogg"></source>
+</audio>
+
+<audio id="timersfx">
+      <source src="aud/time.mp3"></source>
+      <source src="aud/time.ogg"></source>
+</audio>
+
+<audio id="gameover">
+      <source src="aud/gameover.mp3"></source>
+      <source src="aud/gameover.ogg"></source>
+</audio>
+
+
+<!-------------------------------------------------->
+<!-- END -->
+<!-------------------------------------------------->
+
+
+<!-- DO NOT PUT ANYTHING AFTER THIS LINE!!! -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+
+
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</body>
+</html>
+
+
+<!-------------------------------------------------->
