@@ -1364,6 +1364,9 @@ h3{
 			text-decoration: none;
 		}
 
+	strong, b {
+		font-weight: 600;
+	}
 
 	em, i {
 		font-style: italic;
@@ -1525,6 +1528,11 @@ h3{
 	}
 
 	input, select, textarea {
+		color: #555;
+	}
+
+
+	strong, b {
 		color: #555;
 	}
 
@@ -4055,12 +4063,11 @@ input[type=submit] {
 			}
 
 		#footer .copyright {
-			color: gray;
-			font-size: 1rem;
+			color: #bbb;
+			font-size: 0.9rem;
 			margin: 0 0 2rem 0;
 			padding: 0;
 			text-align: center;
-            font-family: 'Squada One';
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4074,7 +4081,7 @@ input[type=submit] {
     	@media screen and (max-width: 480px) {
 
 		#footer .copyright {
-				font-size: 0.9rem;
+				font-size: 0.7rem;
 			}
 
 	}
