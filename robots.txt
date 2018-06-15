@@ -6,4 +6,4 @@ User-agent: *
 Disallow: /hoverbot
 Disallow: /detroiteer
 
-Sitemap: http://www.put-your-domain-name-here.com/sitemap.xml
+Sitemap: http://www.leonardoburgatte.com/sitemap.xml
