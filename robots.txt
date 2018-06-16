@@ -4,7 +4,6 @@ User-agent: *
 
 
 Disallow: /hoverbot
-Disallow: /detroiteer
 Disallow: /puzzleguardian
 Disallow: /festivar
 
