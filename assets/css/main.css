@@ -3082,6 +3082,10 @@ input[type=submit] {
         
         @media screen and (min-width: 600px){
             
+            #footer a:hover {
+				color: #bc2032;
+			}
+            
             #text2{
                 font-size: 1.9em;
             }
@@ -4071,9 +4075,6 @@ input[type=submit] {
 			color: rgba(255, 255, 255, 0.5);
 		}
 
-			#footer a:hover {
-				color: #bc2032;
-			}
 
 		#footer .copyright {
 			color: #bbb;
