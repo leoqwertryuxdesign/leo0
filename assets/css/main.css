@@ -21,11 +21,6 @@
   outline: 0;
 }  
 
-@font-face{
-    font-family: "Zekton";
-    src: url('assets/fonts/zekton rg.ttf'),
-}
-
     textarea:focus {
   border-color: #66afe9;
   outline: 0;
