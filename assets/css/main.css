@@ -3885,10 +3885,7 @@ input[type=submit] {
 				}
 
 		.banner > article {
-			-moz-transition: opacity 1.5s ease, visibility 1.5s;
-			-webkit-transition: opacity 1.5s ease, visibility 1.5s;
-			-ms-transition: opacity 1.5s ease, visibility 1.5s;
-			transition: opacity 1.5s ease, visibility 1.5s;
+
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -3899,7 +3896,6 @@ input[type=submit] {
 			position: absolute;
 			text-align: center;
 			top: 0;
-			visibility: hidden;
 			width: 100%;
 			z-index: 0;
 		}
