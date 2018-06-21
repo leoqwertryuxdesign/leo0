@@ -3112,6 +3112,7 @@ input[type=submit] {
                 h4{
 		font-weight: 400;
 		line-height: 3.5;
+                    font-size: 1.35;
 	}
             
          .box {
