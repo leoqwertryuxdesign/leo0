@@ -1453,6 +1453,7 @@ h3{
 	blockquote {
 		padding: 0.5rem 0 0.5rem 0;
         color: #7b7b7b;
+        font-style: italic;
 	}
 
 	code {
@@ -3051,11 +3052,12 @@ input[type=submit] {
             
             
             #info{
+    
     display: block;
     padding: 1em;
          width: 50%;
   margin: 0 auto;
-                background-color: #ebebeb;
+background-color: #e8e8e8;
 }
             
         		#header > .logo {
@@ -3390,7 +3392,7 @@ input[type=submit] {
 @media screen and (max-width: 600px) {
     
     #info{
-        background-color: #ebebeb;
+background-color: #e8e8e8;
     padding: 1em;
         font-size: 1em;
 }
