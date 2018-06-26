@@ -106,10 +106,7 @@ var settings = {
 
 	};
 
-	/**
-	 * Custom banner slider for Slate.
-	 * @return {jQuery} jQuery object.
-	 */
+
 	$.fn._slider = function(options) {
 
 		var	$window = $(window),
