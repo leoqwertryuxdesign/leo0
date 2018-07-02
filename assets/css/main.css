@@ -95,7 +95,6 @@ opacity: 0.7;
 
 h3{
     text-align: center;
-    padding-bottom: 1em;
 }
 
 	ol, ul {
@@ -2646,7 +2645,7 @@ input[type=submit] {
 					.wrapper.style2 input[type="button"].alt:hover,
 					.wrapper.style2 button.alt:hover,
 					.wrapper.style2 .button.alt:hover {
-						background-color: rgba(0, 0, 0, 0.075);
+						background-color: #f2f2f2;
 					}
 
 					.wrapper.style2 input[type="submit"].alt:active,
@@ -2701,7 +2700,7 @@ input[type=submit] {
 			.wrapper.style2 input[type="email"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
-				background: rgba(0, 0, 0, 0.075);
+				background: #efefef;
 				border-color: rgba(0, 0, 0, 0.15);
 			}
 
@@ -2710,8 +2709,8 @@ input[type=submit] {
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #bc2032;
-					box-shadow: 0 0 0 1px #bc2032;
+					border-color: #111216;
+					box-shadow: 0 0 0 1px #111216;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3112,8 +3111,9 @@ input[type=submit] {
                 h4{
 		font-weight: 400;
 		line-height: 3.5;
-                    font-size: 1.35;
+        font-size: 1.35;
 	}
+            
             
          .box {
 	position: relative;
@@ -3129,6 +3129,15 @@ input[type=submit] {
 }
 
 	@media screen and (min-width: 600px) and (max-width: 5000px) {
+        
+         .wrapper.style3 h4{
+			color: gray;
+            padding-bottom: 2em;
+                padding-top: 2em;
+                font-weight: 500;
+                font-size: 1.35em;
+             text-align: justify;
+			}
             
             
         p.special{
@@ -3136,7 +3145,7 @@ input[type=submit] {
             }
             
             	h3 {
-		font-size: 2rem;
+		font-size: 3.5rem;
             }
 
 			.wrapper > .inner {
