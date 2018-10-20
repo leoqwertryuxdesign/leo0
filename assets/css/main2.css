@@ -3519,7 +3519,7 @@ background-color: #e8e8e8;
 			}
 
 				#header > a[href="https://leonardoburgatte.com"]:before {
-					content: "\f060";
+					content: "\f015";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: FontAwesome;
