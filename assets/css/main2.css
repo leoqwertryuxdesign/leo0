@@ -2787,12 +2787,12 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #555555;
+				color: #484848;
                 font-weight: 600;
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5{
-				color: #d5d5d5;
+				color: #555555;
 			}
 
 			.wrapper.style3 blockquote {
