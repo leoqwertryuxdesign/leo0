@@ -1423,7 +1423,7 @@ h3{
 
 	h2 {
 		font-size: 1rem;
-        color: #484848;
+        color: white;
         
 	}
 
@@ -1615,7 +1615,7 @@ h1{
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
-            background-color: #f9f9f9;
+            background-color: #111216;
             text-decoration: none;
             color: #a6a6a6;
 		}
