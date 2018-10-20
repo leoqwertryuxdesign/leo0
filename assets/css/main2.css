@@ -1423,7 +1423,7 @@ h3{
 
 	h2 {
 		font-size: 1rem;
-        color: white;
+        color: #484848;
         
 	}
 
@@ -1615,7 +1615,7 @@ h1{
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
-            background-color: #111216;
+            background-color: #f9f9f9;
             text-decoration: none;
             color: #a6a6a6;
 		}
@@ -2792,7 +2792,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5{
-				color: #555555;
+				color: #484848;
 			}
 
 			.wrapper.style3 blockquote {

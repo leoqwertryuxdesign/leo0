@@ -1417,7 +1417,7 @@ h3{
 
 	h2 {
 		font-size: 1.3rem;
-        color: #d5d5d5;
+        color: #484848;
         
 	}
 
@@ -1617,7 +1617,7 @@ h1{
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
-            background-color: #111216;
+            background-color: #f9f9f9;
             text-decoration: none;
             color: #a6a6a6;
 		}
@@ -2564,7 +2564,7 @@ input[type=submit] {
             background-repeat: no-repeat;
 */
             background-color: #f2f2f2;
-			color: white;
+			color: #484848;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -2765,7 +2765,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style2 header p {
-				color: #d5d5d5;
+				color: #484848;
 			}
 
 			.wrapper.style2 table tbody tr {
