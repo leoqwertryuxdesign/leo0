@@ -1617,7 +1617,7 @@ h1{
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
-            background-color: #f9f9f9;
+            background-color: #111216;
             text-decoration: none;
             color: #a6a6a6;
 		}
@@ -2564,7 +2564,7 @@ input[type=submit] {
             background-repeat: no-repeat;
 */
             background-color: #f2f2f2;
-			color: #484848;
+			color: white;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
