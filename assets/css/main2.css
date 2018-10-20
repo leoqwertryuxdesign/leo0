@@ -1778,7 +1778,7 @@ border-radius: 10% 10% 50% 10%;
 	input[type="button"],
 	button,
 	.button {
-		background-color: white;
+		background-color: #f2f2f2;
 		color: white;
 	}
 
@@ -2367,7 +2367,7 @@ input[type=submit] {
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: white;
+				background-color: #f2f2f2;
 				color: #000 !important;
 			}
 
@@ -2538,7 +2538,7 @@ input[type=submit] {
             background-size: cover;
             background-repeat: no-repeat;
 */
-            background-color: white;
+            background-color: #f2f2f2;
 			color: #a6a6a6;
 		}
 
@@ -2578,7 +2578,7 @@ input[type=submit] {
 
 			.wrapper.style2 input[type="submit"] {
 				background-color: #111216;
-				color: white !important;
+				color: #f2f2f2 !important;
                 line-height: 1em;                
                 font-family: 'Squada One', cursive; 
 			}
@@ -2591,7 +2591,7 @@ input[type=submit] {
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #111216;
-				color: white !important;
+				color: #f2f2f2 !important;
                 float: right;
                 font-family: 'Squada One', cursive;
                 font-size: 1.2em;
@@ -2768,7 +2768,7 @@ input[type=submit] {
 			}
 
 		.wrapper.style3 {
-			background-color: white;
+			background-color: #f2f2f2;
 			color: #484848;
 /*			background-image: url(../../images/work5.jpg);*/
 			background-size:contain;
@@ -2818,7 +2818,7 @@ input[type=submit] {
 			.wrapper.style3 input[type="button"],
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
-				background-color: white;
+				background-color: #f2f2f2;
 				color: #000 !important;
 			}
 
