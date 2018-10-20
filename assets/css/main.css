@@ -1348,7 +1348,7 @@ h3{
 	a {
 		text-decoration: none;
         color: grey;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Squada One', cursive;
 	}
 
 		a:hover {
@@ -1371,11 +1371,11 @@ h3{
 	}
 
 		p.special {
-			text-transform: uppercase;
+			
 			font-weight: 100;
 			margin: 0 0 .5rem 0;
 			letter-spacing: .25rem;
-            font-family: "Poppins", sans-serif;
+            font-family: 'Squada One', cursive;
 		}
 
 			p.special:after {
@@ -1391,7 +1391,7 @@ h3{
 			}
 
             p.special2{
-            text-transform: uppercase;
+           
             font-size: 2em;
             font-weight: 800;
             margin: 0 0 .5rem 0;
@@ -1435,7 +1435,7 @@ h3{
 		font-size: 7rem;
         color: white;
         font-family: 'Squada One', cursive;
-        text-transform: uppercase;
+        
 	}
 
 	sub {
@@ -1585,7 +1585,7 @@ h1{
 		}
 
 		.box header p {
-			text-transform: uppercase;
+			
 			font-size: .75rem;
 			font-weight: 500;
 			margin: 0 0 0 0;
@@ -1666,7 +1666,7 @@ h1{
 		padding: 0 1.5rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		
 		white-space: nowrap;
 	}
 
@@ -3033,7 +3033,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 p {
-				text-transform: uppercase;
+				
 				font-weight: 300;
 				margin: 0 0 .5rem 0;
 				padding: 0 0 1rem 0;
@@ -3687,7 +3687,7 @@ input[type=submit] {
 						display: block;
 						line-height: 3.5rem;
 						text-decoration: none;
-						text-transform: uppercase;
+						
 /*                         transition: all .2s ease-in-out;*/
 					}
 
@@ -3956,7 +3956,7 @@ input[type=submit] {
 
 			.banner > article p {
 				color: rgba(255, 255, 255, 0.65);
-				text-transform: uppercase;
+				
 				font-size: 1rem;
 				font-weight: 300;
 				margin: 0;
