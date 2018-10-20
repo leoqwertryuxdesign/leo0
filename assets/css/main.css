@@ -1348,7 +1348,7 @@ h3{
 	a {
 		text-decoration: none;
         color: grey;
-        font-family: 'Squada One', cursive;
+        font-family: "Poppins", sans-serif;
 	}
 
 		a:hover {
@@ -1375,7 +1375,7 @@ h3{
 			font-weight: 100;
 			margin: 0 0 .5rem 0;
 			letter-spacing: .25rem;
-            font-family: 'Squada One', cursive;
+            font-family: "Poppins", sans-serif;
 		}
 
 			p.special:after {
