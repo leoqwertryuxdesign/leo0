@@ -1491,7 +1491,7 @@ h3{
     display: none; 
     position: fixed; 
     bottom: 2.5em; 
-    right: 30px; 
+    left: 30px; 
     z-index: 99;
     border: none; 
     outline: none; 
@@ -1769,7 +1769,7 @@ h1{
 width: 3em;
 height: 3em;
 margin-bottom: -1.8em;
-margin-right: -1.1em;
+margin-left: -1.1em;
 border-radius: 10% 10% 50% 10%;
 }
 

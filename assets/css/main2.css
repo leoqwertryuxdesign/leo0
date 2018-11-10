@@ -1490,7 +1490,7 @@ h3{
         display: none; 
         position: fixed;
         bottom: 2.5em; 
-        right: 30px; 
+        left: 30px; 
         z-index: 99; 
         border: none; 
         outline: none; 
