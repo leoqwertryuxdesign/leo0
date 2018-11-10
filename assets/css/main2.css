@@ -1486,6 +1486,7 @@ h3{
 	}
 
     #myBtn {
+        
         opacity: 0.5;
     display: none; 
     position: fixed; 
@@ -1495,7 +1496,7 @@ h3{
     border: none; 
     outline: none; 
     background-color: #bc2032; 
-    color: black; 
+    color: white; 
     cursor: pointer; 
         font-family: "Squada One", cursive;
     font-size: 18px;
@@ -1765,6 +1766,7 @@ h1{
 			}
             
             #myBtn {
+
 width: 3em;
 height: 3em;
 margin-bottom: -1.8em;
@@ -3072,8 +3074,8 @@ background-color: #e8e8e8;
 				color: #bc2032;
 			}
             
-        #myBtn:hover {
-    background-color: #111216; 
+     #myBtn:hover {
+    background-color: #111216; /* Add a dark-grey background on hover */
     border-style: solid;
     border-width: 1px;
     border-color: #ffffff6b;
