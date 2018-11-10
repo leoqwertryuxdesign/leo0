@@ -1487,17 +1487,18 @@ h3{
 
     #myBtn {
         opacity: 0.5;
-        display: none; 
-        position: fixed;
-        bottom: 2.5em; 
-        left: 30px; 
-        z-index: 99; 
-        border: none; 
-        outline: none; 
-        background-color: #bc2032; 
-        cursor: pointer;
+    display: none; 
+    position: fixed; 
+    bottom: 2.5em; 
+    left: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: #bc2032; 
+    color: black; 
+    cursor: pointer; 
         font-family: "Squada One", cursive;
-        font-size: 18px;
+    font-size: 18px;
 }
 
 		hr.major {
@@ -1767,7 +1768,7 @@ h1{
 width: 3em;
 height: 3em;
 margin-bottom: -1.8em;
-margin-right: -1.1em;
+margin-left: -1.1em;
 border-radius: 10% 10% 10% 50%;
 }
 
