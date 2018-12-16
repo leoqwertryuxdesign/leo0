@@ -1334,7 +1334,7 @@ h3{
 		}
 
 	body {
-		background-color: #111216;
+		background-color: #000000;
 		color: #444;
 	}
 
@@ -1531,7 +1531,7 @@ h3{
 	}
 
 h1{
-    color: #111216;
+    color: #000000;
 }
 
 	blockquote {
@@ -3596,7 +3596,7 @@ input[type=submit] {
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background-color: #111216;
+			background-color: rgba(0, 0, 0, 0);
 			box-shadow: none;
 			overflow: hidden;
 			position: absolute;
@@ -3783,7 +3783,7 @@ input[type=submit] {
 /* Banner */
 
 	.banner {
-		background-color: #111216;
+		background-color: rgba(0, 0, 0, 0);
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
@@ -3839,7 +3839,7 @@ input[type=submit] {
 			-webkit-transition: opacity 0.25s ease-in-out, visibility 0.25s;
 			-ms-transition: opacity 0.25s ease-in-out, visibility 0.25s;
 			transition: opacity 0.25s ease-in-out, visibility 0.25s;
-			background: #111216;
+			background: rgba(0, 0, 0, 0);
 			content: '';
 			display: block;
 			height: 100%;
