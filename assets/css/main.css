@@ -4099,6 +4099,18 @@ input[type=submit] {
 		}
 
     	@media screen and (max-width: 480px) {
+            
+            		.banner > article {
+/*
+			-moz-transition: opacity 1.5s ease, visibility 1.5s;
+			-webkit-transition: opacity 1.5s ease, visibility 1.5s;
+			-ms-transition: opacity 1.5s ease, visibility 1.5s;
+			transition: opacity 1.5s ease, visibility 1.5s;
+*/
+
+			height: 75%;
+			top: 4em;
+		}
 
 		#footer .copyright {
 				font-size: 0.7rem;
