@@ -3662,7 +3662,7 @@ input[type=submit] {
 		width: 20rem;
 		z-index: 10002;
         text-align: center;
-        border-radius: 50% 0 50% 50%;
+        border-radius: 0% 0% 0% 50%;
 	}
 
 		#menu > ul {
@@ -3728,7 +3728,7 @@ input[type=submit] {
 			top: 0;
 			vertical-align: middle;
 			width: 7rem;
-            border-radius: 50% 0 50% 50%;
+            border-radius: 0% 0% 0% 50%;
 		}
 
 			#menu .close:before {
@@ -3769,7 +3769,7 @@ input[type=submit] {
 			transform: translateX(0);
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
-            border-radius: 50% 0 50% 50%;
+            border-radius: 0% 0% 0% 50%;
 		}
 
 		@media screen and (max-width: 736px) {
