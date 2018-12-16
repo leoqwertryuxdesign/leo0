@@ -4011,8 +4011,8 @@ input[type=submit] {
 
 			.banner.full {
 				padding: 0;
-				min-height: 75vh;
-				height: 75vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
 			}
             
 
@@ -4108,7 +4108,7 @@ input[type=submit] {
 			transition: opacity 1.5s ease, visibility 1.5s;
 */
 
-			height: 75%;
+			height: 88%;
 			top: 4em;
 		}
 
