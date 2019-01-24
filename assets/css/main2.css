@@ -1495,7 +1495,7 @@ h3{
     border: none; 
     outline: none; 
     background-color: #000000; 
-    color: black; 
+    color: #ffffff; 
     cursor: pointer; 
         font-family: "Squada One", cursive;
     font-size: 18px;
@@ -1770,7 +1770,7 @@ width: 3em;
 height: 3em;
 margin-bottom: -1.8em;
 margin-left: -1.1em;
-border-radius: 10% 10% 10% 50%;
+border-radius: 10% 10% 50% 10%;
 }
 
 		}
