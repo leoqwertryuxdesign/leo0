@@ -3843,8 +3843,8 @@ input[type=submit] {
 
 		.banner.full {
 			padding: 0;
-			min-height: 75vh;
-			height: 75vh !important;
+			min-height: 85vh;
+			height: 85vh !important;
 		}
 
 		.banner.half {
