@@ -5,7 +5,7 @@ var settings = {
 	banner: {
 
 		// Indicators (= the clickable dots at the bottom).
-			indicators: true,
+			indicators: false,
 
 		// Transition speed (in ms)
 		// For timing purposes only. It *must* match the transition speed of "#banner > article".
@@ -15,7 +15,7 @@ var settings = {
 			delay: 1,
 
 		// Parallax intensity (between 0 and 1; higher = more intense, lower = less intense; 0 = off)
-			parallax: 0,
+			parallax: 0.75,
 
 	}
 
@@ -62,16 +62,16 @@ var settings = {
 
 			on = function() {
 
-				$t.css('background-position', 'center 100%, center 100%, center 0px');
+//				$t.css('background-position', 'center 100%, center 100%, center 0px');
 
-				$window
-					.on('scroll._parallax', function() {
-
-						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
-
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
-
-					});
+//				$window
+//					.on('scroll._parallax', function() {
+//
+//						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
+//
+//						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+//
+//					});
 
 			};
 

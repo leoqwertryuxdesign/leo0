@@ -4020,10 +4020,7 @@ background-color: #e8e8e8;
 				transition: none !important;
 			}
 
-		body.is-loading .banner:after {
-			opacity: 1.0;
-			visibility: visible;
-		}
+
 
 
 		@media screen and (max-width: 880px) {
