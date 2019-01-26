@@ -78,6 +78,21 @@ opacity: 0.7;
     color: #ffffff;
     padding-bottom: 1em;
     text-align: center;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+
+#text3{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#text4{
+    color: grey;
+    font-size: 1.5em;
+    text-align: center;
     font-family: 'Squada One', cursive;
     font-weight: lighter;
 }
@@ -1393,7 +1408,7 @@ h3{
             p.special2{
             text-transform: uppercase;
             font-size: 2em;
-            font-weight: 800;
+            font-weight: 100;
             margin: 0 0 .5rem 0;
             padding: 3rem 3rem 1rem 3rem;
             letter-spacing: .25rem;
@@ -1416,8 +1431,10 @@ h3{
 		}
 
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1rem;
         color: #ffffff;
+        font-family: 'Poppins';
+        font-weight: 600;
         
 	}
 
@@ -1523,7 +1540,7 @@ h3{
 
 
 	strong, b {
-		color: #555;
+		color: #ffffff;
 	}
 
 	h5 {
@@ -3085,7 +3102,7 @@ input[type=submit] {
 			}
             
             #text2{
-                font-size: 1.9em;
+                font-size: 1.5em;
             }
             
         		#header > .logo {
