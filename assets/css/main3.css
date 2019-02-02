@@ -2804,12 +2804,12 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: white;
+				color: #AAA;
                 font-weight: 600;
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5{
-				color: white;
+				color: #AAA;
 			}
 
 			.wrapper.style3 blockquote {
