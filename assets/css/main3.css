@@ -1445,7 +1445,7 @@ h3{
 	h3 {
 /*        font-family: 'Squada One', cursive;*/
         font-weight: 200;
-        color: #484848;
+        color: white;
 	}
 
 	h5 {
@@ -2785,7 +2785,7 @@ input[type=submit] {
 			}
 
 		.wrapper.style3 {
-			background-color: #f2f2f2;
+/*			background-color: #f2f2f2;*/
 			color: #484848;
 /*			background-image: url(../../images/work5.jpg);*/
 			background-size:contain;
@@ -2804,12 +2804,12 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #484848;
+				color: white;
                 font-weight: 600;
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h4, .wrapper.style3 h5{
-				color: #484848;
+				color: white;
 			}
 
 			.wrapper.style3 blockquote {
@@ -2988,7 +2988,7 @@ input[type=submit] {
 			}
 
 			.wrapper.style3 header p {
-				color: #484848;
+				color: white;
 			}
 
 			.wrapper.style3 table tbody tr {
