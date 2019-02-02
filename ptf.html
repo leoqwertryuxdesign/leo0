@@ -1,0 +1,619 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<title>Cubus - Leonardo Burgatte</title>
+		<meta charset="UTF-8">
+        <meta name="description" content="Cubus is a modular and autonomous bus designed to improve the experience of transportation systems">
+        <meta name="keywords" content="Leonardo Burgatte, Cubus, Toronto, modular bus, modular design, UX Design, UX Designer, Freelance Design, Freelance Designer, Freelancer Designer, UI Design, UI Designer, Designer in Toronto, Design Toronto, Toronto Design, Leonardo Burgatte Design, UX Designer Toronto, UX Design Toronto, UI Design Toronto, UI Designer Toronto, Game Design, Game Designer, Game Designer Toronto, Game Design Toronto, Designer in Canada, Design Canada, Canada Design"/>
+        <meta name="copyright" content="Leonardo Burgatte Design">
+        <meta name="language" content="en">
+        <meta name="robots" content="index,follow" />
+        <meta name='abstract' content='Leonardo Burgatte Design Portfolio'>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google" content="notranslate">
+        <meta name="theme-color" content="#111216" />
+        <meta name="msapplication-square70x70logo" content="small.jpg"/>
+        <meta name="msapplication-square150x150logo" content="medium.jpg"/>
+        <meta name="msapplication-wide310x150logo" content="wide.jpg"/>
+        <meta name="msapplication-square310x310logo" content="large.jpg"/>
+        <meta name="msapplication-TileColor" content="#111216"/>
+		<link rel="stylesheet" href="assets/css/main3.css" />
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+        <link rel="apple-touch-icon" href="/medium.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50180045-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50180045-2');
+</script>
+
+        
+        
+	</head>
+
+<!--
+<style>
+#loading{
+	background-color: #111216;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10003;
+	margin-top: 0px;
+	top: 0px;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: -50px;	
+}
+.object{
+	width: 0.75em;
+	height: 0.75em;
+	background-color: rgba(255,255,255,0);
+	margin-right: auto;
+	margin-left: auto;
+	border: 1.5px solid #bc2032;
+	left: 37px;
+	top: 37px;
+	position: absolute;
+}
+
+#first_object{
+     transform: rotate(-20deg);
+	-webkit-animation: first_object 1s infinite;
+	animation: first_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+    border-color: transparent transparent #bc2032 #bc2032;
+}
+#second_object{
+     transform: rotate(-20deg);
+	-webkit-animation: second_object 1s infinite;
+	animation: second_object 1s infinite;
+    border-color: transparent transparent #bc2032 #bc2032;
+}	
+#third_object{
+     transform: rotate(-20deg);
+	-webkit-animation: third_object 1s infinite;
+	animation: third_object 1s infinite;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
+    border-color: transparent transparent #bc2032 #bc2032;
+}	
+#forth_object{
+     transform: rotate(-20deg);
+	-webkit-animation: forth_object 1s infinite;
+	animation: forth_object 1s infinite;
+    border-color: transparent transparent #bc2032 #bc2032;
+}
+	
+@-webkit-keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	 
+}		
+@keyframes first_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+    -ms-transform: translate(150%,150%) scale(2,2); 
+   	-webkit-transform: translate(150%,150%) scale(2,2); 
+    transform: translate(150%,150%) scale(2,2);
+	 }
+	 
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+	
+@-webkit-keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}		
+@keyframes second_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(-150%,150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%,150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes third_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+ 50% {
+	-ms-transform: translate(-150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+@-webkit-keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }	
+}		
+@keyframes forth_object {
+ 0% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+ 50% {
+	-ms-transform: translate(150%,-150%) scale(2,2); 
+   	-webkit-transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%,-150%) scale(2,2);
+	}
+ 100% {
+    -ms-transform: translate(1,1) scale(1,1); 
+   	-webkit-transform: translate(1,1) scale(1,1); 
+    transform: translate(1,1) scale(1,1); 
+	 }
+}
+
+</style>
+-->
+
+<body>
+<!--
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+<div class="object" id="forth_object"></div>
+</div>
+</div>
+ 
+</div>
+-->
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="https://www.leonardoburgatte.com">
+  <img src="images/leonardoburgatte_1logo.svg" alt="Leonardo Burgatte Logo">
+</a></div>
+                
+                <span id="text3">Cubus</span>
+				<a href ="https://leonardoburgatte.com"></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+			</nav>
+
+		<!-- Banner -->
+            <h1>Cubus</h1>
+
+			<section class="banner full">
+				<article>
+					<img src="images/cubuscover.jpg" alt="Cubus Cover" />
+                    <div class="inner">
+						<header>							
+							<h6>Portfolio</h6>
+						</header>
+					</div>
+				</article>
+			</section>
+      
+		
+		<!-- Three -->
+        <div id="About" class="section">
+
+			<section id="three" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center2">
+                          <br>                                
+                        
+                        <h3>Envisioning a new way to move around the city.<br>The application of modularity in vehicles<br></h3>
+                        <br>
+                        
+                        <div id="info"><h4><b>Client:</b> George Brown College<br><b>Role:</b> UX, Concept Design, Branding, 3D Modelling & Motion Graphics<br><b>Tools Used:</b> Photoshop, Illustrator, After Effects & Maya<br><b>Duration:</b> 4 months</h4></div>
+                <br><br><br>
+
+                         <p class="special"><span style="color: #bc1330">O</span>VERVIEW</p>
+                        						<h4><br>
+Cubus is a <b>modular & autonomous transit system</b> that allows buses to attach/detach from each other generating a unique transportation experience.<br><br> Each "cube" has a capacity of 16 people and their <b>own set of routes</b>. The modularity permits passengers to transfer between vehicles in motion and choose the one that leads them to their desired destination. With safety and efficiency in mind, Cubus is a <b>new way to move around the city</b>.<br><br></h4><br>
+                        
+                        <div>
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/275816212?color=bc1330&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                        </div>    
+                            
+                        
+                        <br><br><br>
+                         <h3>Modular & Autonomous vehicles create a unique and efficient method of transportation in Toronto</h3>
+                        
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/cubus1.jpg" alt="Cubus Intro" />
+                                
+                                <blockquote>This is Cubus</blockquote>
+							</div>
+						</div>
+					</div>
+                       
+						<h4>
+The following information is about the design process of this transit system, including each step from concept to the final design and all the challenges that were faced during Cubus development. <br><br></h4>
+                        <br><br>
+                        <p class="special"><span style="color: #bc1330">I</span>NTERVIEW + <span style="color: #bc1330">R</span>ESEARCH</p>
+                        
+                        <h4><br>Cubus is a project that was developed to minimize the impact of a common issue among people's experience in Toronto's public transportation: <b>the inefficiency of buses and trains</b>. The initial phase was to conduct interviews in order to understand what are the major complaints that users have with the current system.<br><br><b>56 people</b> were interviewed about the Toronto Transit Commission (TTC).<br><br>Some of the questions included:<br><br><b>- How often do you use the TTC?<br>- How satisfied are you with the TTC experience?</b><br></h4>
+                        
+                           <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/chart.svg" alt="Cubus Data" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>The questions above were purposefully simple with the objective of gathering the overall percentage of TTC riders and their satisfaction with Toronto's buses and trains. A <b>questionnaire</b> was also used to get more specific information about their desires, needs, and service complaints.<br><br><br></h4>
+                        <br>
+                             <h3>Inefficient, crowded & slow public transportation: <br>A frustrating experience for TTC users<br><br></h3>
+                            
+                            <h4>The majority of users listed <b>inefficiency, overcrowdedness, and slowness</b> as their main problems with the current transportation system. It was revealed that they desire more available buses on the streets and less crowded vehicles in order to get a comfortable ride experience.<br><br>With the data collected from the interviews, we began a more in-depth research process to obtain information about the situation of TTC buses. Innumerous sources stated that the problem with the TTC is real and that a large number of users are unsatisfied with the provided service. <b>CityNews</b> reported on their <a href="http://toronto.citynews.ca/2017/11/15/overcrowded-underfunded-no-relief-ttc-bus-riders-2018/" target="_blank">website</a> that many buses & streetcars routes around Toronto are overcrowded.</h4><br><h4>In addition to the research, personas were created based on the common responses by interviewees.</h4>
+                        <br>
+                         <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/persona1.jpg" alt="Persona 1" /><br>
+                                <img src="images/persona2.jpg" alt="Persona 2" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+
+                        <br><br><br>
+                        <p class="special"><span style="color: #bc1330">C</span>ONCEPT</p>
+                        <h4><br>After gathering all the information from the research and interviews, we were faced with the challenge: <b>How can we solve or minimize the problem experienced by the TTC users? What are the major aspects that should be the focus of our solution?</b><br><br>The brainstorming phase began and a diverse range of <b>conceptual systems</b> was proposed. Since the results revealed that the problems of buses & streetcars are the most common complaint, the concepts were targeting street transportation as opposed to trains.<br><br>The initial sketches of the selected transit system were created: <b>a modular & autonomous vehicle that adapts to the needs of the city and users.</b></h4>
+                        <br>
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/cubussketch.jpg" alt="Cubus Sketches" />
+                                 <blockquote>Sketches of the selected transportation concept</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        <br><br>
+                         <h3>The importance of understanding and visualizing an idea in motion<br><br></h3>
+                        
+                        <h4>The next step was to create a quick render of the vehicles to have a better <b>visualization of the system</b> and understand how users <b>interact & move between modules</b>. This early stage was focusing on the functionality rather than the visual aspects of the bus.</h4>
+                        <br>
+                         <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/gif.gif" alt="Cubus Animated Render" />
+                                 <blockquote>Quick render in Autodesk Maya</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                        <h4>With the definition of our concept and tools to visualize the transportation system, the name for this cubic vehicle was selected: <b>Cubus</b> (Cube + bus).</h4>
+                        
+                        
+                        <br><br><br>
+                         <p class="special"><span style="color: #bc1330">D</span>ESIGN</p>
+                        <h4><br>At this phase of the project, we began to create the visual identity of Cubus. In addition, the dimensions of the modules and their general specifications were defined:<br><br>- Each Cubus has a width, length and height of <b>2.6m (8.5ft)</b><br>- It has 8 seats and a capacity of <b>16 individuals</b> (8 seated and 8 standing)<br>- The colours of the vehicles and logos were selected to have a similar feel to the current TTC palette: a contrast of <b>reds, white and dark grey</b><br>- A panel that displays the destination of each Cubus<br><br><br><b><span style="display: block; text-align: center">Cubus visualization:</span></b></h4>
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/cubusdesign.svg" alt="Cubus Illustration" />
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        
+                         <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/cubuspng.png" alt="One Cubus" />
+                                 <blockquote>Render of a Cubus</blockquote>
+                                
+                                
+							</div>
+						</div>
+					</div>
+                        <br>
+                        <h4>The <b>logo, colour palette & typography</b> were also defined in order to have a consistent brand:</h4>
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+								<img src="images/cubusstyle.svg" alt="Style Guide" />
+                                
+                                
+							</div>
+						</div>
+					</div>                       
+                        
+                        
+                         <p class="special"><span style="color: #bc1330">R</span>ESULT</p>
+                        <h4><br>A lot of assets were produced to visualize our solution for the streets of Toronto. The branding was finalized and Cubus began to have its own identity. One of the design goals was to produce a video showcasing the modular buses in action. The animation was developed with <b>Maya & After Effects</b>.<br><br>Below are some of the renders and a physical model created for this project:</h4>
+                        <br><br>
+                        
+                        <div>
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/275438978?color=bc1330&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                            </div>
+                        
+                        
+                        <div class="gallery">
+                            
+						<div>
+							<div class="image fit">
+                                
+                                <img src="images/cubus0.jpg" alt="Cubus Model" />
+								<img src="images/cubus2.jpg" alt="Cubus Top View" />
+                                <img src="images/cubus3.jpg" alt="Cubus Front View" />
+                                <img src="images/cubus4.jpg" alt="Cubus Side View" />
+                                <img src="images/cubus5.jpg" alt="Cubus Interior" />
+                                <img src="images/cubus6.jpg" alt="Cubus Perspective View" />
+                                
+                                
+							</div>
+						</div>
+					</div>   
+                        
+                        <h3><br>Improving the situation of public transportation<br><br></h3>
+                        
+                        <h4>Current public transportation systems have the issue of being overcrowded on innumerous occasions. In addition, many TTC users revealed the problem of long wait times for buses and streetcars. Since Cubus is a modular vehicle, it allows itself to <b>expand based on the needs</b> of that specific location, time and number of riders.<br><br>When modules connect to each other, Cubus capacity increases allowing more people to go inside. This factor contributes to shorter wait times and a better ride experience for the passengers. The modularity of this system permits individuals to move between each vehicle and select the one that corresponds with their desired route/destination. All modules are fully autonomous in order to prevent human error and guarantee a safe journey for the passengers and pedestrians.</h4>
+                        <br><br><br>  
+                        
+                        <h4><b>- Final considerations:</b><br>Since the initial phase I had a great experience with the development of this project. Some challenges were faced due to our scope (considering the budget & time) and a lot of research had to be made to understand the possibilities, limitations & specifications of vehicles on the streets.<br><br>However, the challenges were overcome and this work with Cubus also resulted in a learning experience to expand our knowledge about designing for a large target audience.</h4>
+                        <br><br><br>
+                        
+                        
+                       
+					</header>
+				</div>
+                <p class="special2"><span style="color: #bc1330">YOU</span> MAY ALSO LIKE</p>
+                
+                <div class="inner">
+                    <header class="align-center">
+                       
+					<div class="grid-style">
+
+			               <div>
+							<div class="box">
+								<div class="image fit"><a href="detroiteer">
+                              <img src="images/leonardoburgatte_4detroiteer.jpg" alt="Detroiteer">
+                            </a></div>
+								<div class="content"><a href="detroiteer">
+									<header class="align-center">
+                                        <h2><span style="font-family: Poppins">Detroiteer</span></h2>									
+									</header>
+								</a></div>
+							</div>
+						</div>					
+                        
+                    <div>
+							<div class="box">
+								<div class="image fit"><a href="whowants1">
+                              <img src="images/leonardoburgatte_6whowants1.jpg" alt="Who Wants 1">
+                            </a></div>
+								<div class="content"><a href="whowants1">
+									<header class="align-center">
+                                        <h2><span style="font-family: Poppins">Who Wants 1</span></h2>						
+									</header>
+								</a></div>
+							</div>
+						</div>
+                        
+                        
+                        </div>
+                    
+                    </header></div>
+                
+            </section></div>
+            
+                
+             <div id="Contact" class="section">
+                 
+
+            <button id="myBtn"><i class="fa fa-angle-up" aria-hidden="true"></i></button></div>
+        
+        
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+                    <div class="contacts2">
+                        <span id="text4">OTHER MEDIA&nbsp;</span></div>
+					<ul class="icons">
+
+						<li><a href="https://www.linkedin.com/in/lbdesigner/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.vimeo.com/lbdesigner/" class="icon fa-vimeo" target="_blank"><span class="label">Vimeo</span></a></li>
+						<li><a href="https://www.pinterest.ca/lbdesigner/" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; 2019 <b>Leonardo Burgatte</b>&nbsp;All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            
+            <script>
+                
+
+                
+   $(document).ready(function(){ 
+       
+//           $(window).load(function() {
+//	$("#loading").delay(2000).fadeOut(500);
+//	$("#loading-center").click(function() {
+//	$("#loading").fadeOut(500);
+//	})
+//     $("html, body").delay(2000).animate({scrollTop: 0}, 1);
+//})
+//    
+                
+    $('a[href^="#"]').on('click',function (e) {
+        
+        e.preventDefault();
+
+        var target = this.hash;
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+       history.pushState("", document.title, window.location.pathname);
+       
+
+});             
+                
+           
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("myBtn").style.display = "block"; 
+    
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+$("#myBtn").click(function () {
+   $("html, body").animate({scrollTop: 0}, 1000);
+});
+            
+</script>        
+
+
+	</body>
+</html>
