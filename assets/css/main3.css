@@ -3338,7 +3338,7 @@ background-color: #e8e8e8;
 		}
 
 			.gallery .image.fit {
-                width: 60%;
+                width: 100%;
                 display: block;
                 margin: 0 auto ;
                 text-align: center;
